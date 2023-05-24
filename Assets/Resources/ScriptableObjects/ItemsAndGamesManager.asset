@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f31c4478f05044a800221b44552147, type: 3}
+  m_Name: ItemsAndGamesManager
+  m_EditorClassIdentifier: 
+  onlineServerURL: https://gamesconverse.space/gameconverse/
+  localServerURL: http://localhost/game_converse/gameconverse/
+  items:
+  - name: Empty Accessory
+    dependencies: 
+    dependencyAlternative: 0
+    id: 1
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/icon_empty
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/empty_accessory
+    price: 0
+  - name: Purple cap
+    dependencies: 
+    dependencyAlternative: 0
+    id: 2
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap
+    price: 100
+  - name: Colorful cap
+    dependencies: 
+    dependencyAlternative: 0
+    id: 3
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_2_colors_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap_2_colors
+    price: 500
+  - name: Blue cap
+    dependencies: 
+    dependencyAlternative: 0
+    id: 4
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_3_blue_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap_3_blue
+    price: 100
+  - name: Clown nose
+    dependencies: 
+    dependencyAlternative: 0
+    id: 5
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/clown_nose_icon
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/clown_nose
+    price: 0
+  - name: Collar
+    dependencies: 
+    dependencyAlternative: 0
+    id: 6
+    typeIndex: 0
+    iconPath: Art/Sprites/14_avatar_customization/Accessories/collar_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/collar
+    price: 200
+  - name: Earrings
+    dependencies: 
+    dependencyAlternative: 0
+    id: 7
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/earrings_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/earrings
+    price: 100
+  - name: Glass
+    dependencies: 
+    dependencyAlternative: 0
+    id: 8
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/glass_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/glass
+    price: 300
+  - name: Hair accessory
+    dependencies: 
+    dependencyAlternative: 0
+    id: 9
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/hair_accessory_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/hair_accessory
+    price: 100
+  - name: Make up blush
+    dependencies: 
+    dependencyAlternative: 0
+    id: 10
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/make_up_blush_icon
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/make_up_blush
+    price: 0
+  - name: Make up cat eye
+    dependencies: 
+    dependencyAlternative: 0
+    id: 11
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_cat_eye_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/makeup_cat_eye
+    price: 100
+  - name: Make up triangles
+    dependencies: 
+    dependencyAlternative: 0
+    id: 12
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_triangles_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/makeup_triangles
+    price: 100
+  - name: Necklace
+    dependencies: 
+    dependencyAlternative: 0
+    id: 13
+    typeIndex: 0
+    iconPath: Art/Sprites/14_avatar_customization/Accessories/necklace_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/necklace
+    price: 100
+  - name: Unicorn
+    dependencies: 
+    dependencyAlternative: 0
+    id: 14
+    typeIndex: 0
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/unicorn_icon
+    spritePath: Art/Sprites/14_avatar_customization/Accessories/unicorn
+    price: 400
+  - name: Blue background
+    dependencies: 
+    dependencyAlternative: 0
+    id: 15
+    typeIndex: 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_blue
+    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_blue
+    price: 0
+  - name: Colorful background
+    dependencies: 
+    dependencyAlternative: 0
+    id: 16
+    typeIndex: 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_colorful
+    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_colorful
+    price: 0
+  - name: Orange background
+    dependencies: 
+    dependencyAlternative: 0
+    id: 17
+    typeIndex: 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_orange
+    spritePath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_orange
+    price: 0
+  - name: Purple background
+    dependencies: 
+    dependencyAlternative: 0
+    id: 18
+    typeIndex: 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_purple
+    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_purple
+    price: 0
+  - name: Red background
+    dependencies: 
+    dependencyAlternative: 0
+    id: 19
+    typeIndex: 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_rouge
+    spritePath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_rouge
+    price: 0
+  - name: Green eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 20
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_1 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_1
+    price: 0
+  - name: Lime eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 21
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_2 1
+    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_2
+    price: 0
+  - name: Brown eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 22
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_3 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_3
+    price: 0
+  - name: Black eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 23
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_4 1
+    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_4
+    price: 0
+  - name: Cyan eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 24
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_5 1
+    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_5
+    price: 0
+  - name: Smiley eyes
+    dependencies: 
+    dependencyAlternative: 0
+    id: 25
+    typeIndex: 2
+    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_6 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_6
+    price: 0
+  - name: Brown hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 26
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_1
+    price: 0
+  - name: Short purple hair
+    dependencies: 2b0000002c0000002d000000
+    dependencyAlternative: 29
+    id: 27
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_2
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_2
+    price: 0
+  - name: Black hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 28
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_3
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_3
+    price: 0
+  - name: Dark brown hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 29
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_4
+    spritePath: Art/Sprites/14_avatar_customization/Hairs/hair_4
+    price: 0
+  - name: Kid black hair
+    dependencies: 2b0000002c0000002d000000
+    dependencyAlternative: 28
+    id: 30
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_5
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_5
+    price: 0
+  - name: Dark purple hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 31
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_6
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_6
+    price: 0
+  - name: Dark blue hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 32
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_7
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_7
+    price: 0
+  - name: White hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 33
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_8
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_8
+    price: 0
+  - name: Red hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 34
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_9
+    spritePath: Art/Sprites/14_avatar_customization/Hairs/hair_9
+    price: 0
+  - name: Dark curly hair
+    dependencies: 
+    dependencyAlternative: 0
+    id: 35
+    typeIndex: 3
+    iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_10
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_10
+    price: 0
+  - name: Normal mouth
+    dependencies: 
+    dependencyAlternative: 0
+    id: 36
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_1
+    price: 0
+  - name: Dark smiley 1
+    dependencies: 2e0000002f00000030000000
+    dependencyAlternative: 38
+    id: 37
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_2_dark
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_2_dark
+    price: 0
+  - name: Light smiley 1
+    dependencies: 2b0000002c0000002d000000
+    dependencyAlternative: 37
+    id: 38
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_2_light
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_2_light
+    price: 0
+  - name: Dark smiley 2
+    dependencies: 2e0000002f00000030000000
+    dependencyAlternative: 40
+    id: 39
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_dark
+    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_3_dark
+    price: 0
+  - name: Light smiley 2
+    dependencies: 2b0000002c0000002d000000
+    dependencyAlternative: 39
+    id: 40
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_light
+    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_3_light
+    price: 0
+  - name: Mouth with lipstick
+    dependencies: 
+    dependencyAlternative: 0
+    id: 41
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_4_lipstick
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_4_lipstick
+    price: 0
+  - name: Laughing mouth
+    dependencies: 
+    dependencyAlternative: 0
+    id: 42
+    typeIndex: 4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_5_laugh
+    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_5_laugh
+    price: 0
+  - name: Skin tone 1
+    dependencies: 
+    dependencyAlternative: 0
+    id: 43
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_1
+    price: 0
+  - name: Skin tone 2
+    dependencies: 
+    dependencyAlternative: 0
+    id: 44
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_2
+    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_2
+    price: 0
+  - name: Skin tone 3
+    dependencies: 
+    dependencyAlternative: 0
+    id: 45
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_3
+    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_3
+    price: 0
+  - name: Skin tone 4
+    dependencies: 
+    dependencyAlternative: 0
+    id: 46
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_4
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_4
+    price: 0
+  - name: Skin tone 5
+    dependencies: 
+    dependencyAlternative: 0
+    id: 47
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_5
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_5
+    price: 0
+  - name: Skin tone 6
+    dependencies: 
+    dependencyAlternative: 0
+    id: 48
+    typeIndex: 5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_6
+    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_6
+    price: 0
+  useLocalServer: 0

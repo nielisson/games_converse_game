@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913180636185",
+    "project_id": "games-converse",
+    "storage_bucket": "games-converse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913180636185:android:a21295223642435068a688",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Games4Changes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913180636185-lo77o5pqcsjhhn1c8tkb8b0n4p3s9sck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DefaultCompany.Games4Changes",
+            "certificate_hash": "72087702aab4d0e5c5b87838ad0bc42f84f8ba27"
+          }
+        },
+        {
+          "client_id": "913180636185-14kmjjqbihqa4n0rvm2tcg6k7s2qfkdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN-pT0BSWzgvbejvsYM2WZZ-Eik2omJYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913180636185-14kmjjqbihqa4n0rvm2tcg6k7s2qfkdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

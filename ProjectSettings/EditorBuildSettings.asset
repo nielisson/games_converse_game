@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Start.unity
+    guid: 1f4a4330a92763240802b1a3a7d17773
+  - enabled: 0
+    path: Assets/Scenes/Main.unity
+    guid: 569ac008165fca741b6e712f0273ae32
+  - enabled: 0
+    path: Assets/Scenes/Games/Game_Quiz.unity
+    guid: 118b65fd9c852444e87ce310e88e2516
+  - enabled: 1
+    path: Assets/Scenes/Games/Game_Quiz_naturalisation.unity
+    guid: eb0aec463f6a4b44eae45be455c66003
+  m_configObjects: {}

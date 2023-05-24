@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c645942fcbb0448905ceef1547230f, type: 3}
+  m_Name: MixedQuesitonData
+  m_EditorClassIdentifier: 
+  questions:
+  - quesitonInfo: Citez trois fleuves en France.
+    quesitonType: 2
+    questionImg: {fileID: 0}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 32900000, guid: 4afd67afda6764f4c8f0c7c78a4e9355, type: 3}
+    options:
+    - La Marne, Les Lilas, Loire
+    - Le Rhin, Loire, Seine
+    - Garonne, La Marne, Lafayette
+    correctAns: Le Rhin, Loire, Seine
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est cette chanson ?
+    quesitonType: 3
+    questionImg: {fileID: 0}
+    questionClip: {fileID: 8300000, guid: a5144f70d36281f4abfc34d510cf1c4b, type: 3}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Macarena
+    - La vie en rose
+    - La Marseillaise
+    correctAns: La Marseillaise
+    alreadyLearned: 0
+  - quesitonInfo: "C'est qui, Napol\xE9on Bonaparte ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: db4647d81bf76614caeaee2581fd43a2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Un militaire, homme d'\xE9tat et \xE9crivain fran\xE7ais. "
+    - "Un roi de France cap\xE9tien n\xE9 le 25 avril 1214 \xE0 Poissy et mort le
+      25 ao\xFBt 1270 \xE0 Carthage, pr\xE8s de Tunis. "
+    - "Un c\xE9l\xE8bre personnage de l'histoire de France qui a cr\xE9\xE9 le code
+      civil"
+    correctAns: "Un c\xE9l\xE8bre personnage de l'histoire de France qui a cr\xE9\xE9
+      le code civil"
+    alreadyLearned: 0
+  - quesitonInfo: Quel pays n'est pas frontalier de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c0e3c1ed151780344a9f00abf1557764, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "l\u2019Andorre"
+    - Belgique
+    - Autriche
+    correctAns: Autriche
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle mer est situ\xE9e au sud de la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 0c3b70b28c9f5f3488363107b9631924, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "L'oc\xE9an Atlantique"
+    - "L'oc\xE9an Pacifique"
+    - "La mer M\xE9diterran\xE9e"
+    correctAns: "La mer M\xE9diterran\xE9e"
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle ville fran\xE7aise ne se situe pas au nord ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 3b836019ce406124cac05e10921a98c3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Calais
+    - Bordeaux
+    - Reims
+    correctAns: Bordeaux
+    alreadyLearned: 0
+  - quesitonInfo: "La Loire est le plus long fleuve s'\xE9coulant enti\xE8rement
+      sur le territoire fran\xE7ais."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 84aa34774b1019e4d843899f4b56f71c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Vrai
+    - Faux
+    - Je ne sais pas
+    correctAns: Vrai
+    alreadyLearned: 0
+  - quesitonInfo: "La France m\xE9tropolitaine partage ses fronti\xE8res terrestres
+      avec quels pays ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 7901a6a18c37df9429a04377e479267f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Andorre et Espagne
+    - Allemagne, Suisse, Italie, Autriche, Anglaterre et Belgique
+    - Andorre, Espagne, Portugal, Luxembourg, Allemagne, Italie
+    correctAns: Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Andorre
+      et Espagne
+    alreadyLearned: 0
+  - quesitonInfo: "C'est dans le d\xE9partement du Calvados que s'\xE9l\xE8vent les
+      falaises d'Etretat."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 84609b01da69a444289c5a7ac44f2dd1, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Vrai
+    - Faux
+    - Je ne sais pas
+    correctAns: Faux
+    alreadyLearned: 0
+  - quesitonInfo: "Combien d'\xC9tats membres l'Union europ\xE9enne compte-t-elle
+      en fevrier 2023 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 551f1b6107fdfe04280966c88668641b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 15
+    - 21
+    - 27
+    correctAns: 27
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la devise de l'Union europ\xE9enne ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: cad4dcdb62ae9c242a88d4afc916e08d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Un pour tous, tous pour un
+    - L'Union fait la force
+    - "Unis dans la diversit\xE9"
+    correctAns: "Unis dans la diversit\xE9"
+    alreadyLearned: 0
+  - quesitonInfo: "Le trait\xE9 de Versailles, qui cr\xE9e la Soci\xE9t\xE9 des nations
+      et met fin \xE0 la Premi\xE8re Guerre mondiale, a \xE9t\xE9 sign\xE9 le 28
+      juin de\u2026"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9dd8a34874cfb484184d3e835e7971a6, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1945
+    - 1889
+    - 1919
+    correctAns: 1919
+    alreadyLearned: 0
+  - quesitonInfo: "La Cinqui\xE8me R\xE9publique a \xE9t\xE9 instaur\xE9e en\u2026"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 29961f12c06828f4c96a9bae8194c1d5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1967
+    - 1958
+    - 1972
+    correctAns: 1958
+    alreadyLearned: 0
+  - quesitonInfo: "Louis XIV a r\xE9gn\xE9 jusqu\u2019en..."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 964f9b975ed040e47b64a2eeef398114, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1638
+    - 1643
+    - 1715
+    correctAns: 1715
+    alreadyLearned: 0
+  - quesitonInfo: "La tour Eiffel a \xE9t\xE9 inaugur\xE9e en\u2026"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f860959d8ec02d8458774a6c08fbc267, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1889
+    - 1901
+    - 1913
+    correctAns: 1889
+    alreadyLearned: 0
+  - quesitonInfo: " Quand d\xE9buta la R\xE9volution fran\xE7aise ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f5204461559d1f44b990dacd443b413c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 2 mars 1997
+    - Octobre 1981
+    - 14 juillet 1789
+    correctAns: 14 juillet 1789
+    alreadyLearned: 0
+  - quesitonInfo: "Quand ont eu lieu les r\xE9volutions des \xE9tudiants en France
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: d0733bf3dd8a6f346922931f2bb2120c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Juillet 1969
+    - Janvier 1930
+    - Mai 68
+    correctAns: Mai 68
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est l\u2019embl\xE8me de la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Joconde
+    - Le drapeau bleu blanc rouge
+    - "L\u2019\xC9lys\xE9e (palais pr\xE9sidentiel)"
+    correctAns: Le drapeau bleu blanc rouge
+    alreadyLearned: 0
+  - quesitonInfo: "Quel \xE9tait le Roi de France pendant la r\xE9volution ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92ecf6d138aeaf8478f2553f5eedc46c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Louis XVI
+    - Charlemagne
+    - Henri II
+    correctAns: Louis XVI
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quelle r\xE9publique sommes nous ?\_"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 34d132894f8830345919893b3e822117, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La 4\xE8me r\xE9publique"
+    - "La 5\xE8me r\xE9publique"
+    - "La 6\xE8me r\xE9publique"
+    correctAns: "La 5\xE8me r\xE9publique"
+    alreadyLearned: 0
+  - quesitonInfo: Comment devient on Ministre ou Premier Ministre ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9c369319f3610cb4e9681333545ea066, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il faut \xEAtre \xE9lu par les s\xE9nateurs"
+    - "Il faut \xEAtre \xE9lu par le peuple"
+    - "Le premier ministre est nomm\xE9 par le pr\xE9sident et il forme un gouvernement
+      qu\u2019il propose au pr\xE9sident."
+    correctAns: "Le premier ministre est nomm\xE9 par le pr\xE9sident et il forme
+      un gouvernement qu\u2019il propose au pr\xE9sident."
+    alreadyLearned: 0
+  - quesitonInfo: Qu'est-ce que "1789" vous faire penser ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "\xE0 la date de la construction de la tour Eiffel"
+    - "Au d\xE9but de la r\xE9volution fran\xE7aise"
+    - "\xE0 un roman de Victor Hugo"
+    correctAns: "Au d\xE9but de la r\xE9volution fran\xE7aise"
+    alreadyLearned: 0
+  - quesitonInfo: De quoi s'agit-il le 1er mai?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "C\u2019est la f\xEAte du muguet"
+    - "C\u2019est la fin de la guerre de 100 an"
+    - "C\u2019est la f\xEAte du travail"
+    correctAns: "C\u2019est la f\xEAte du travail"
+    alreadyLearned: 0
+  - quesitonInfo: "Que repr\xE9sentent les couleurs \xAB bleu, blanc, rouge \xBB
+      du drapeau fran\xE7ais ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: bb624a1970f630c4ab0435f005272947, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Les couleurs de la nature native de la France
+    - "Paris, la royaut\xE9 et le sang du peuple"
+    - Le ciel, la paix et l'amour
+    correctAns: "Paris, la royaut\xE9 et le sang du peuple"
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quel r\xE9gime sommes-nous ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Le r\xE9gime pr\xE9sidentiel "
+    - "Le r\xE9gime semi-pr\xE9sidentiel"
+    - "Le r\xE9gime parlementaire"
+    correctAns: "Le r\xE9gime semi-pr\xE9sidentiel"
+    alreadyLearned: 0
+  - quesitonInfo: "Quand est n\xE9e la cinqui\xE8me R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - En 1958
+    - En 1960
+    - En 1945
+    correctAns: En 1958
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est l\u2019actuel Premier ministre ? (2023)"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 3e647c6a2c040b84697ea59255a03d41, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Herv\xE9 Berville "
+    - "\xC9lisabeth Borne"
+    - Bruno Le Maire
+    correctAns: "\xC9lisabeth Borne"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est l\u2019actuel ministre de l'Europe et des affaires \xE9trang\xE8res
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8fa9dc286180fc5489efe44000eeeee7, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Catherine Colonna
+    - Olivier Becht
+    - Laurence Boone
+    correctAns: Catherine Colonna
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est actuellement le pr\xE9sident du S\xE9nat ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 40e15b2eb65d7e54e9874f1235e41c67, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "S\xE9bastien Lecornu"
+    - Pap Ndiaye
+    - "G\xE9rard Larcher"
+    correctAns: "G\xE9rard Larcher"
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces hommes politiques, lequel n\u2019a pas \xE9t\xE9 Pr\xE9sident
+      de la Ve R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c3a204be0cf6ecc439ea1b8f3fc81356, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Jacques Chirac
+    - Victor Hugo
+    - "Val\xE9ry Giscard d'Estaing"
+    correctAns: Victor Hugo
+    alreadyLearned: 0
+  - quesitonInfo: "En quelle ann\xE9e a \xE9t\xE9 abolie la peine de mort en France
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 7a39be278f45dde4ca5b91091637a7be, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1966
+    - 1971
+    - 1981
+    correctAns: 1981
+    alreadyLearned: 0
+  - quesitonInfo: "Pourquoi le 1er mai est-il un jour f\xE9ri\xE9 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Parce que les travailleurs \xE9taient tr\xE8s fatigu\xE9 ce jour-l\xE0"
+    - "Historiquement journ\xE9e de revendication salariale et syndicale aux \xC9tats-Unis"
+    - "C'est un jour f\xE9ri\xE9 qui comm\xE9more la fin de la Grande Guerre avec
+      la signature du trait\xE9 de paix"
+    correctAns: "Historiquement journ\xE9e de revendication salariale et syndicale
+      aux \xC9tats-Unis"
+    alreadyLearned: 0
+  - quesitonInfo: "En cas de d\xE9c\xE8s ou d\u2019incapacit\xE9 du Pr\xE9sident,
+      qui dirige la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Le Pr\xE9sident du S\xE9nat"
+    - "Le vice-pr\xE9sident"
+    - Le Garde des Sceaux
+    correctAns: "Le Pr\xE9sident du S\xE9nat"
+    alreadyLearned: 0
+  - quesitonInfo: "La population de la France est en majorit\xE9 : "
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Urbaine
+    - Rurale
+    - "Bronz\xE9"
+    correctAns: Urbaine
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces vall\xE9es, laquelle est fran\xE7aise ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La vall\xE9e d'Aoste"
+    - "La vall\xE9e de la Surrey "
+    - " La vall\xE9e du Rh\xF4ne "
+    correctAns: " La vall\xE9e du Rh\xF4ne "
+    alreadyLearned: 0
+  - quesitonInfo: "Combien y a-t-il d'habitants dans l'agglom\xE9ration parisienne
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 58b2732d118ee3f488d0c23af455a2af, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 2 millions d'habitants
+    - 6 millions d'habitants
+    - 12 millions d'habitants
+    correctAns: 12 millions d'habitants
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quel oc\xE9an se trouve l'\xEEle de La R\xE9union ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 0c3b70b28c9f5f3488363107b9631924, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Pacifique
+    - Atlantique
+    - Indien
+    correctAns: Indien
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle r\xE9gion fran\xE7aise se trouve \xE0 l'extr\xE9mit\xE9
+      ouest du territoire fran\xE7ais ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Bretagne
+    - Hauts-de-France
+    - Nouvelle-Aquitaine
+    correctAns: La Bretagne
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quel but la s\xE9curit\xE9 sociale a-t-elle \xE9t\xE9 cr\xE9\xE9e
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Assurer aux individus une protection de base contre les risques li\xE9s aux
+      maladies, aux accidents du travail, aux maladies professionnelles, \xE0 la
+      famille et \xE0 la vieillesse."
+    - "Financer les d\xE9penses des Fran\xE7ais."
+    - Pour diminuer la violence dans les rues.
+    correctAns: "Assurer aux individus une protection de base contre les risques
+      li\xE9s aux maladies, aux accidents du travail, aux maladies professionnelles,
+      \xE0 la famille et \xE0 la vieillesse."
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle r\xE9gion insulaire est proche de la m\xE9tropole fran\xE7aise
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8b16fbac22802084db132392651fae22, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Wallis-et-Futuna
+    - "La R\xE9union"
+    - 'La Corse '
+    correctAns: 'La Corse '
+    alreadyLearned: 0

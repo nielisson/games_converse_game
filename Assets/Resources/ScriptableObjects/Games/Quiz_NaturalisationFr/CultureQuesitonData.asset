@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c645942fcbb0448905ceef1547230f, type: 3}
+  m_Name: CultureQuesitonData
+  m_EditorClassIdentifier: 
+  questions:
+  - quesitonInfo: "Quel est le personnage principal de Germinal, d\u2019\xC9mile
+      Zola ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: b998fd9dfe367f645aceffa551642b82, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "\xC9tienne Lantier"
+    - Christine
+    - "Irma B\xE9cot"
+    correctAns: "\xC9tienne Lantier"
+    alreadyLearned: 0
+  - quesitonInfo: "Pourquoi le 1er mai est-il f\xE9ri\xE9 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "C\u2019est la f\xEAte du travail"
+    - "C'est la fin de la 4e R\xE9publique"
+    - C'est la date de l'abolition de la peine de mort
+    correctAns: "C\u2019est la f\xEAte du travail"
+    alreadyLearned: 0
+  - quesitonInfo: Quel est l'hymne national de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Versaillaise
+    - La Marseillaise
+    - Gloire au 17e
+    correctAns: La Marseillaise
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces lieux, lequel est un mus\xE9e ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 0bae8493be62a8d448b9fb5e6a6d3b28, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Les Galeries Lafayette
+    - "Mus\xE9e d'Orsay"
+    - Le Puy du Fou
+    correctAns: "Mus\xE9e d'Orsay"
+    alreadyLearned: 0
+  - quesitonInfo: Qui est Brigitte Bardot ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 258d8b8490480fc499fbdc4274376d25, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La femme de Napol\xE9on Bonaparte"
+    - "La premi\xE8re pr\xE9sidente de la France"
+    - "Une actrice de cin\xE9ma"
+    correctAns: "Une actrice de cin\xE9ma"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Auguste Rodin ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e340ff0f7802ccb43b47f4bc81304ef5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Un sculpteur
+    - Un joueur de football
+    - Un actor
+    correctAns: Un sculpteur
+    alreadyLearned: 0
+  - quesitonInfo: "L\u2019 H\xF4tel de Ville , c\u2019est aussi :"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 356032e946a684949ad9d46cd4b7817f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La mairie
+    - Un centre commercial
+    - Le parlement
+    correctAns: La mairie
+    alreadyLearned: 0
+  - quesitonInfo: Qui est l'auteur du roman "Les Trois Mousquetaires" ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8f122c11f8b5537439d2ff509b8e61d9, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Victor Hugo
+    - Alexandre Dumas
+    - "\xC9mile Zola"
+    correctAns: Alexandre Dumas
+    alreadyLearned: 0
+  - quesitonInfo: "Moli\xE8re a \xE9crit :"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: d4a1123fb0bdea149ae08ee362ac6b36, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Des roman fantastique
+    - Des recettes
+    - "Des pi\xE8ces de th\xE9\xE2tre"
+    correctAns: "Des pi\xE8ces de th\xE9\xE2tre"
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces trois personnalit\xE9s, laquelle ne fait pas partie
+      de la cat\xE9gorie des chanteurs ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: af207f932b2e08449a2a7991b17deccd, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Jacques Brel
+    - Serge Gainsbourg
+    - Gaspard Ulliel
+    correctAns: Gaspard Ulliel
+    alreadyLearned: 0
+  - quesitonInfo: "Pour quelle activit\xE9 Michel Platini est-il connu ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4fa06346b5697e54fbbe93c1baba2c3a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La peinture acrylique
+    - Le Football
+    - Les performances artistiques
+    correctAns: Le Football
+    alreadyLearned: 0
+  - quesitonInfo: "\xC0 partir de quel \xE2ge l'\xE9cole est-elle obligatoire en
+      France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: d476a5a8b5e8fe04684967851ff60d7a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 6 ans
+    - 3 ans
+    - 5 ans
+    correctAns: 6 ans
+    alreadyLearned: 0
+  - quesitonInfo: Qu'est-ce que la Tour de France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Un monument
+    - Une course cycliste
+    - "Un \xE9difice"
+    correctAns: Une course cycliste
+    alreadyLearned: 0
+  - quesitonInfo: Que contient la Grotte de Lascaux ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 5b86675fd01214a4584217c10e2f1d01, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Des peintures pr\xE9historiques"
+    - Des installations militaires
+    - De l'eau potable
+    correctAns: "Des peintures pr\xE9historiques"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait \xC9dith Piaf ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 3df9d09a804d2e646883fb51a1827055, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Une dessinatrice
+    - Une chanteuse
+    - Une professeure
+    correctAns: Une chanteuse
+    alreadyLearned: 0
+  - quesitonInfo: "Jusqu'\xE0 quel \xE2ge est-il obligatoire pour un enfant d'aller
+      \xE0 l'\xE9cole ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: d476a5a8b5e8fe04684967851ff60d7a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 10 ans
+    - 13 ans
+    - 16 ans
+    correctAns: 16 ans
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Jean Moulin ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 36331599e011241458c13be2ac64d24d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Un com\xE9dien"
+    - "Un actor fran\xE7ais tr\xE8s connu"
+    - "Un haut fonctionnaire fran\xE7ais et r\xE9sistant pendant la Seconde Guerre
+      mondiale"
+    correctAns: "Un haut fonctionnaire fran\xE7ais et r\xE9sistant pendant la Seconde
+      Guerre mondiale"
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le surnom couramment attribu\xE9 \xE0 la ville de Paris
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f0f0ac696f002ea4fa78032ac2485bf3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La Ville Lumi\xE8re"
+    - "La Ville Ensoleill\xE9e"
+    - La Capitale de l'Europe
+    correctAns: "La Ville Lumi\xE8re"
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le nom de l'auteur qui a cr\xE9\xE9 la Trilogie marseillaise,
+      comprenant les \u0153uvres Marius, Fanny et C\xE9sar ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: b998fd9dfe367f645aceffa551642b82, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Charles Baudelaire
+    - Victor Hugo
+    - Marcel Pagnol
+    correctAns: Marcel Pagnol
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces artistes, lequel n'\xE9tait pas un musicien compositeur
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: af207f932b2e08449a2a7991b17deccd, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Alain Delon
+    - Claude Debussy
+    - Hector Berlioz
+    correctAns: Alain Delon
+    alreadyLearned: 0
+  - quesitonInfo: "Quel plat parmi ceux-ci est consid\xE9r\xE9 comme une sp\xE9cialit\xE9
+      culinaire du Sud de la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e630a0adc77f6d84788b0f8d6dd51687, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Les galettes de sarrasin
+    - La ratatouille
+    - "La soupe \xE0 l'oignon"
+    correctAns: La ratatouille
+    alreadyLearned: 0
+  - quesitonInfo: Combien de points maximum peut-on obtenir sur un permis de conduire
+      en France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 6
+    - 12
+    - 18
+    correctAns: 12
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est le c\xE9l\xE8bre DJ et producteur de musique fran\xE7ais
+      connu pour ses tubes \"Get Lucky\" et \"One More Time\" ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 1341ba05bb7f793409e090e4603549e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Daft Punk
+    - The Blaze
+    - Yelle
+    correctAns: Daft Punk
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est l'actrice fran\xE7aise qui a remport\xE9 un Oscar pour
+      son r\xF4le dans le film \"La M\xF4me\" ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 62d3255afcd2f7c449bca321271860b6, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Isabelle Huppert
+    - Brigitte Bardot
+    - Marion Cotillard
+    correctAns: Marion Cotillard
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le nom du c\xE9l\xE8bre parc d'attractions fran\xE7ais
+      qui propose de nombreuses attractions bas\xE9es sur des personnages de bandes
+      dessin\xE9es ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9835d20ed5f84ef4f8a5d2bd0c680bc5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Disneyland Paris
+    - Le Puy du Fou
+    - "Parc Ast\xE9rix"
+    correctAns: "Parc Ast\xE9rix"
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle \xE9mission de t\xE9l\xE9vision fran\xE7aise est devenue
+      un ph\xE9nom\xE8ne mondial et a \xE9t\xE9 refaite dans plusieurs pays ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 41ebce69b153e9c47a2e8bb0600a88f3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Marseille
+    - Bienvenue chez les Ch'tis
+    - Les Revenants
+    correctAns: Les Revenants
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quelle ville se d\xE9roule le film \"Am\xE9lie Poulain\"
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c6d4011ed8145af48a9b7a0ec3fec323, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Marseille
+    - Paris
+    - Nice
+    correctAns: Paris
+    alreadyLearned: 0
+  - quesitonInfo: "Quel chanteur fran\xE7ais est surnomm\xE9 \"l'idole des jeunes\"
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f5b75011c681e87499e61ba71c734656, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Johnny Hallyday
+    - "Claude Fran\xE7ois"
+    - Eddy Mitchell
+    correctAns: Johnny Hallyday
+    alreadyLearned: 0
+  - quesitonInfo: "Quel r\xE9alisateur fran\xE7ais a r\xE9alis\xE9 les films \"La
+      Grande Illusion\" et \"La R\xE8gle du jeu\"?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8d10ba223a202864890ea67bf22dd6a1, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Jean Renoir
+    - "Fran\xE7ois Truffaut"
+    - "Agn\xE8s Varda"
+    correctAns: Jean Renoir
+    alreadyLearned: 0
+  - quesitonInfo: "Comment s'appelle le dramaturge fran\xE7ais le plus c\xE9l\xE8bre
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Victor Hugo
+    - Jules Romain
+    - "Moli\xE8re"
+    correctAns: "Moli\xE8re"
+    alreadyLearned: 0
+  - quesitonInfo: "La vie en Rose est une chanson de\u2026 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 109c29005a41eb44286f73dc87d747c5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Serge Gainsbourg
+    - Edith Piaf
+    - Jean Ferrat
+    correctAns: Edith Piaf
+    alreadyLearned: 0
+  - quesitonInfo: "Qui a \xE9crit \xAB Les Mis\xE9rables \xBB ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: b998fd9dfe367f645aceffa551642b82, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Victor Hugo
+    - Voltaire
+    - Gustave Flaubert
+    correctAns: Victor Hugo
+    alreadyLearned: 0
+  - quesitonInfo: "Comment s'appelle le monument o\xF9 reposent les illustres de
+      France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Panth\xE9on"
+    - Les Invalides
+    - La tour Eiffel
+    correctAns: "Panth\xE9on"
+    alreadyLearned: 0
+  - quesitonInfo: "Quand la France a-t-elle \xE9t\xE9 championne du monde de football
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: ec007d748f5518646806302063e886d1, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1990
+    - 1994
+    - 1998
+    correctAns: 1998
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est la figure embl\xE9matique de l'histoire de France, morte
+      pour h\xE9r\xE9sie ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 1e70b9df43cc0f14e8966d7a13d9b01a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Jeanne d'Arc
+    - Marie Antoinette
+    - "Ali\xE9nor d'Aquitaine"
+    correctAns: Jeanne d'Arc
+    alreadyLearned: 0
+  - quesitonInfo: "O\xF9 est n\xE9 Napol\xE9on Bonaparte ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: db4647d81bf76614caeaee2581fd43a2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Ajaccio
+    - Marseille
+    - Nantes
+    correctAns: Ajaccio
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quel but a \xE9t\xE9 construite la Tour Eiffel ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f0f0ac696f002ea4fa78032ac2485bf3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - L'Exposition Universelle
+    - "C'\xE9tait un cadeau de l'Anglaterre"
+    - "Pour c\xE9l\xE9brer la fin de la 2\xE8me Guerre mondiale"
+    correctAns: L'Exposition Universelle
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la r\xE9gion o\xF9 on produit le Champagne ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4ba4b7a301585d3468199d1d8d5c83a2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Champagne
+    - Marseille
+    - Reims
+    correctAns: Champagne
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est la capitale du Parfum ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 676c65c7c05b52a439198f7584f9d702, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Grasse
+    - Champagne
+    - Paris
+    correctAns: Grasse
+    alreadyLearned: 0

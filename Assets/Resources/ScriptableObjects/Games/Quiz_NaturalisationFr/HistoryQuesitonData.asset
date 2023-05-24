@@ -1,0 +1,509 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c645942fcbb0448905ceef1547230f, type: 3}
+  m_Name: HistoryQuesitonData
+  m_EditorClassIdentifier: 
+  questions:
+  - quesitonInfo: Comment s'appelle l'hymne national ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La vie en rose
+    - Le chant des partisants
+    - La Marseillaise
+    correctAns: La Marseillaise
+    alreadyLearned: 0
+  - quesitonInfo: "Qui s'occupe des relations entre l'\xC9tat et les institutions
+      religieuses ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 99d8d2e20735b6b4e92f0f2b4cf49e11, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le Pape
+    - "Depuis 1905, il n'y a pas de relation entre l'\xC9tat et la religion."
+    - "Le minist\xE8re des cultes"
+    correctAns: "Le minist\xE8re des cultes"
+    alreadyLearned: 0
+  - quesitonInfo: "Quels pays ont \xE9t\xE9 les alli\xE9s pendant la Seconde Guerre
+      mondiale ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9f83f4a80189c524bb5ff23a5af1e41f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - " L\u2019Angleterre, les USA, la France et l'URSS"
+    - "Le Japon, Le Br\xE9sil, L'Anglaterre et l'Alg\xE9rie"
+    - Les USA, la France, la Russie et l'Espagne
+    correctAns: " L\u2019Angleterre, Les USA, La France, L'URSS"
+    alreadyLearned: 0
+  - quesitonInfo: "Est-ce que le terme \"les poilus\" a une signification particuli\xE8re
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 199dd9c363bce7d429c145af42718482, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Une chanson d'\xC9dith Piaf"
+    - "Les soldats fran\xE7ais durant la Premi\xE8re Guerre mondiale de 1914-1918
+      \xE9taient surnomm\xE9s \"les poilus\"."
+    - "Une personne qui ne se rase pas r\xE9guli\xE8rement"
+    correctAns: "Les soldats fran\xE7ais durant la Premi\xE8re Guerre mondiale de
+      1914-1918 \xE9taient surnomm\xE9s \"les poilus\"."
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous me rappeler les dates de la Premi\xE8re Guerre mondiale
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "De 1914 \xE0 1918"
+    - "De 1915 \xE0 1918"
+    - "De 1939 \xE0 1945"
+    correctAns: "De 1914 \xE0 1918"
+    alreadyLearned: 0
+  - quesitonInfo: "Qu\u2019est ce que le 8 Mai ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La date de la fin de la seconde guerre mondiale en 1945
+    - La date de la prise de la Bastille
+    - "La date de l'abolition des privil\xE8ges et fin de l'Ancien R\xE9gime"
+    correctAns: La date de la fin de la seconde guerre mondiale en 1945
+    alreadyLearned: 0
+  - quesitonInfo: C'est qui Marianne ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 74f185f404af72e4487159021fbac5c2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Un personnage du livre Le Petit Prince
+    - "Une sculpture situ\xE9 devant la tour Eiffel"
+    - "Une paysanne coiff\xE9e d\u2019un bonnet phrygien et qui repr\xE9sente la
+      libert\xE9 et la d\xE9mocratie"
+    correctAns: "Une paysanne coiff\xE9e d\u2019un bonnet phrygien et qui repr\xE9sente
+      la libert\xE9 et la d\xE9mocratie"
+    alreadyLearned: 0
+  - quesitonInfo: "Que vous \xE9voque l'ann\xE9e 1789 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La f\xEAte nationale"
+    - "La r\xE9volution fran\xE7aise"
+    - "La premi\xE8re Guerre Mondiale"
+    correctAns: "La r\xE9volution fran\xE7aise"
+    alreadyLearned: 0
+  - quesitonInfo: Pouvez-vous me dire qui est Charles De Gaulle ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 29961f12c06828f4c96a9bae8194c1d5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Un homme d'\xC9tat fran\xE7ais et g\xE9n\xE9ral pendant la Seconde Guerre
+      mondiale"
+    - "Un chanteur fran\xE7ais tr\xE8s populaire pendant la deuxi\xE8me guerre mondiale"
+    - "Le nom d'un des principaux a\xE9roports de France"
+    correctAns: "Un homme d'\xC9tat fran\xE7ais et g\xE9n\xE9ral pendant la Seconde
+      Guerre mondiale"
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous indiquer qui parmi les personnalit\xE9s suivantes
+      n'a jamais \xE9t\xE9 roi de France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92ecf6d138aeaf8478f2553f5eedc46c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Louis XIV
+    - Le roi Soleil
+    - "\xC9lisabeth II"
+    correctAns: "\xC9lisabeth II"
+    alreadyLearned: 0
+  - quesitonInfo: Pouvez-vous m'indiquer les dates auxquelles a eu lieu la Seconde
+      Guerre mondiale ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9f83f4a80189c524bb5ff23a5af1e41f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "De 1939 \xE0 1945"
+    - "De 1914 \xE0 1918"
+    - "De 1935 \xE0 1946"
+    correctAns: "De 1939 \xE0 1945"
+    alreadyLearned: 0
+  - quesitonInfo: Pouvez-vous me dire quel est le symbole de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "l'h\xF4tel de ville de Paris"
+    - Le drapeau bleu blanc rouge
+    - "Le mus\xE9e du Louvre"
+    correctAns: Le drapeau bleu blanc rouge
+    alreadyLearned: 0
+  - quesitonInfo: Pourriez-vous expliquer la signification du 14 juillet ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "C\u2019est la f\xEAte nationale"
+    - C'est l'armistice
+    - "C\u2019est la fin de la deuxi\xE8me guerre mondiale"
+    correctAns: "C\u2019est la f\xEAte nationale"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait le roi de la France durant la R\xE9volution fran\xE7aise
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92ecf6d138aeaf8478f2553f5eedc46c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Louis XVI
+    - Le Roi du Soleil
+    - Charlemagne
+    correctAns: Louis XVI
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Jeanne d'Arc ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 1e70b9df43cc0f14e8966d7a13d9b01a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Elle \xE9tait une h\xE9ro\xEFne et chef militaire fran\xE7aise au XVe si\xE8cle,
+      br\xFBl\xE9e vive \xE0 l'\xE2ge de 19 ans pour h\xE9r\xE9sie"
+    - "Elle \xE9tait une imp\xE9ratrice fran\xE7aise au XIXe si\xE8cle, c\xE9l\xE8bre
+      pour ses conqu\xEAtes militaires"
+    - "Elle \xE9tait une scientifique et microbiologiste du XIXe si\xE8cle qui a
+      d\xE9couvert la pasteurisation"
+    correctAns: "Elle \xE9tait une h\xE9ro\xEFne et chef militaire fran\xE7aise au
+      XVe si\xE8cle, br\xFBl\xE9e vive \xE0 l'\xE2ge de 19 ans pour h\xE9r\xE9sie"
+    alreadyLearned: 0
+  - quesitonInfo: Pouvez-vous m'expliquer la signification du 11 novembre ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La f\xEAte nationale"
+    - "La date de signature de l\u2019armistice, fin de la premi\xE8re guerre mondiale
+      en 1918"
+    - "L'abolition de la peine de mort avec Fran\xE7ois Mitterand"
+    correctAns: "La date de signature de l\u2019armistice, fin de la premi\xE8re
+      guerre mondiale en 1918"
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous me dire en quelle ann\xE9e la peine de mort a \xE9t\xE9
+      abolie en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - En 1975
+    - En 1981
+    - En 1999
+    correctAns: En 1981
+    alreadyLearned: 0
+  - quesitonInfo: "Par qui le Code civil a-t-il \xE9t\xE9 instaur\xE9 en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - De Gaulle
+    - Napoleon Bonaparte
+    - Macron
+    correctAns: Napoleon Bonaparte
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Charlemagne ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il \xE9tait un soldat tr\xE8s connu pendant la deuxi\xE8me guerre mondiale"
+    - "Il \xE9tait un \xE9tait un g\xE9n\xE9ral et homme politique fran\xE7ais"
+    - "Il \xE9tait un roi et empereur carolingien au Moyen \xC2ge"
+    correctAns: "Il \xE9tait un roi et empereur carolingien au Moyen \xC2ge"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Napol\xE9on Bonaparte ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: db4647d81bf76614caeaee2581fd43a2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il \xE9tait un g\xE9n\xE9ral et empereur fran\xE7ais qui a jou\xE9 un r\xF4le
+      majeur dans la R\xE9volution fran\xE7aise"
+    - "Il \xE9tait un roi et empereur carolingien au Moyen \xC2ge"
+    - "Il \xE9tait un h\xE9ros et chef militaire fran\xE7aise au XVe si\xE8cle"
+    correctAns: "Il \xE9tait un g\xE9n\xE9ral et empereur fran\xE7ais qui a jou\xE9
+      un r\xF4le majeur dans la R\xE9volution fran\xE7aise"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9tait Georges Clemenceau ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 07ddab6a05649eb48b8d89e145667028, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il \xE9tait un homme politique fran\xE7ais connu pour son r\xF4le de Premier
+      ministre pendant la Premi\xE8re Guerre mondiale"
+    - "Il \xE9tait un roi et empereur carolingien au Moyen \xC2ge"
+    - "Il \xE9tait un g\xE9n\xE9ral et empereur fran\xE7ais qui a jou\xE9 un r\xF4le
+      majeur dans la R\xE9volution fran\xE7aise"
+    correctAns: "Il \xE9tait un homme politique fran\xE7ais connu pour son r\xF4le
+      de Premier ministre pendant la Premi\xE8re Guerre mondiale"
+    alreadyLearned: 0
+  - quesitonInfo: "Quel \xE9l\xE9ment ne fait pas partie des monuments historiques
+      en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La Grande Arche de la D\xE9fense"
+    - Le pantheon
+    - "L\u2019Arc de Triomphe"
+    correctAns: "La Grande Arche de la D\xE9fense"
+    alreadyLearned: 0
+  - quesitonInfo: "\xC0 quelle personne ou \xE9v\xE9nement pensez-vous en voyant
+      l'Arc de Triomphe \xE0 Paris ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 34d132894f8830345919893b3e822117, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Napol\xE9on Bonaparte"
+    - "Le g\xE9n\xE9ral de Gaulle"
+    - "La fin de la deuxi\xE8me guerre mondiale"
+    correctAns: "Napol\xE9on Bonaparte"
+    alreadyLearned: 0
+  - quesitonInfo: "\xC0 quelle \xE9poque ont \xE9t\xE9 construites les cath\xE9drales
+      gothiques ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 99d8d2e20735b6b4e92f0f2b4cf49e11, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Entre le XIIe et le XIIIe si\xE8cle, \xE0 l'\xE9poque du Moyen \xC2ge en Europe
+      occidentale"
+    - "La R\xE9volution fran\xE7aise"
+    - "L'Antiquit\xE9"
+    correctAns: "Entre le XIIe et le XIIIe si\xE8cle, \xE0 l'\xE9poque du Moyen \xC2ge
+      en Europe occidentale"
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle \xE9tait la fonction de la Bastille avant sa d\xE9molition
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c8357836f72ca3f4684bd95b51ed7eb3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "C'\xE9tait un lieu de r\xE9union des manifestants"
+    - "C'\xE9tait un point touristiques \xE0 Paris"
+    - "C'\xE9tait une prison"
+    correctAns: "C'\xE9tait une prison"
+    alreadyLearned: 0
+  - quesitonInfo: Quand a eu lieu la Guerre de Cent Ans ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9f83f4a80189c524bb5ff23a5af1e41f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "De 1337 \xE0 1453"
+    - "De 1914 \xE0 2014"
+    - "Sous le r\xE8gne de Louis XVI"
+    correctAns: "De 1337 \xE0 1453"
+    alreadyLearned: 0
+  - quesitonInfo: "\xC0 quelle guerre fait r\xE9f\xE9rence la bataille de Verdun
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9f83f4a80189c524bb5ff23a5af1e41f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La guerre de Cent ans
+    - "La premi\xE8re guerre mondiale"
+    - La seconde guerre mondiale
+    correctAns: "La premi\xE8re guerre mondiale"
+    alreadyLearned: 0
+  - quesitonInfo: "Quand a \xE9t\xE9 construite la Tour Eiffel ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 58b2732d118ee3f488d0c23af455a2af, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "En 1889 pour l' \xAB exposition universelle \xBB"
+    - "En 1789, command\xE9e par le roi Louis XIV"
+    - "En 1890, un cadeau des \xC9tats-Unis"
+    correctAns: "En 1889 pour l' \xAB exposition universelle \xBB"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui \xE9taient les parties en opposition durant les guerres de
+      religion au XVI\xE8me si\xE8cle ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 9f83f4a80189c524bb5ff23a5af1e41f, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Juifs et catholiques
+    - Catholiques et protestants
+    - "Chr\xE9tiens et musulmans"
+    correctAns: Catholiques et protestants
+    alreadyLearned: 0
+  - quesitonInfo: "Quel homme parmi ces trois n'a jamais occup\xE9 le poste de Pr\xE9sident
+      de la R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - De Gaulle
+    - "Fran\xE7ois Mitterrand"
+    - Emile Zola
+    correctAns: Emile Zola
+    alreadyLearned: 0
+  - quesitonInfo: "En France, le catholicisme est consider\xE9 comme une..."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 99d8d2e20735b6b4e92f0f2b4cf49e11, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Une parmi plusieurs autres
+    - "Une r\xE9ligion obligatoire"
+    - "Une r\xE9ligion nouvelle"
+    correctAns: Une parmi plusieurs autres
+    alreadyLearned: 0
+  - quesitonInfo: "Quand a eu lieu le discours du g\xE9n\xE9ral de Gaulle appelant
+      \xE0 la r\xE9sistance ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 29961f12c06828f4c96a9bae8194c1d5, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le 18 juin 1940
+    - "Pendant les \xE9v\xE9nements de mai 1968"
+    - En 1789
+    correctAns: Le 18 juin 1940
+    alreadyLearned: 0
+  - quesitonInfo: "D'o\xF9 vient le nom \"France\" ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il est originaire de la langue fran\xE7aise"
+    - "C'est un terme utilis\xE9 par le peuple indig\xE8ne"
+    - Il vient du peuple germanique des Francs
+    correctAns: Il vient du peuple germanique des Francs
+    alreadyLearned: 0
+  - quesitonInfo: "Depuis quelle ann\xE9e les femmes ont-elles le droit de vote ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 74f185f404af72e4487159021fbac5c2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1944
+    - 1789
+    - 1999
+    correctAns: 1944
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces trois pays, lequel n'a jamais \xE9t\xE9 inclus dans
+      l'Empire colonial fran\xE7ais ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le Maroc
+    - La Tunisie
+    - La Belgique
+    correctAns: La Belgique
+    alreadyLearned: 0
+  - quesitonInfo: "En quelle ann\xE9e a eu lieu l'abolition de l'esclavage en France
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1879
+    - 1848
+    - 1945
+    correctAns: 1848
+    alreadyLearned: 0
+  - quesitonInfo: "Quand la Constitution de la V\xE8me R\xE9publique a-t-elle \xE9t\xE9
+      adopt\xE9e ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1879
+    - 1958
+    - 1945
+    correctAns: 1958
+    alreadyLearned: 0
+  - quesitonInfo: "En quelle ann\xE9e la France a-t-elle introduit la D\xE9claration
+      des droits de l'homme et du citoyen ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1789
+    - 1839
+    - 1945
+    correctAns: 1789
+    alreadyLearned: 0
+  - quesitonInfo: "Combien y a-t-il eu de pr\xE9sidents, y compris le pr\xE9sident
+      Macron, dans la Cinqui\xE8me R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 6
+    - 8
+    - 10
+    correctAns: 1789
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le nom du roi qui a v\xE9cu entre 466 et 511 et a unifi\xE9
+      les diff\xE9rents royaumes pour former le d\xE9but de l'\xC9tat fran\xE7ais
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92ecf6d138aeaf8478f2553f5eedc46c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Clovis I
+    - Charles III
+    - Louis II
+    correctAns: Clovis I
+    alreadyLearned: 0
+  - quesitonInfo: "En quelle ann\xE9e la peine de mort a-t-elle \xE9t\xE9 abolie
+      en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1839
+    - 1981
+    - 1930
+    correctAns: 1981
+    alreadyLearned: 0

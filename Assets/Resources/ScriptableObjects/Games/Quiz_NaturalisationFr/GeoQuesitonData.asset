@@ -1,0 +1,479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c645942fcbb0448905ceef1547230f, type: 3}
+  m_Name: GeoQuesitonData
+  m_EditorClassIdentifier: 
+  questions:
+  - quesitonInfo: "O\xF9 se trouve Reims ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 7a510cc095a4df54a8164aa5dbe6ce6c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Au d\xE9partement de la Marne"
+    - "Au d\xE9partement de Pas-de-Calais "
+    - "Au d\xE9partement de la Loire"
+    correctAns: "Au d\xE9partement de la Marne"
+    alreadyLearned: 0
+  - quesitonInfo: "O\xF9 est situ\xE9 le Mont-Saint-Michel ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 93e901e6f3f0b0549ab412fef84c0629, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - En Normandie
+    - Au Nord Pas de Calais
+    - l'Occitanie
+    correctAns: En Normandie
+    alreadyLearned: 0
+  - quesitonInfo: "Quel pays parmi ces trois ne fait pas partie de l'espace europ\xE9en
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: cad4dcdb62ae9c242a88d4afc916e08d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Pologne
+    - L'Allemagne
+    - La Turquie
+    correctAns: La Turquie
+    alreadyLearned: 0
+  - quesitonInfo: Quel est le point culminant de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92731235014009d499a2827f27f1c1dd, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le Mont Blanc
+    - Le pic du Canigou
+    - Le pic de l'Aigle
+    correctAns: Le Mont Blanc
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle \xEEle parmi celles-ci ne fait PAS partie des Antilles
+      fran\xE7aises ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8b16fbac22802084db132392651fae22, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Martinique
+    - "Les \xEEles Maldives"
+    - La Guadeloupe
+    correctAns: "Les \xEEles Maldives"
+    alreadyLearned: 0
+  - quesitonInfo: Quel fleuve parmi ceux-ci coule en France ?
+    quesitonType: 2
+    questionImg: {fileID: 0}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 32900000, guid: 4afd67afda6764f4c8f0c7c78a4e9355, type: 3}
+    options:
+    - Le Mississippi
+    - La Loire
+    - Le Saint-Laurent
+    correctAns: La Loire
+    alreadyLearned: 0
+  - quesitonInfo: Parmi ces montagnes, laquelle ne se trouve pas en France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: a7c4b2cb0a2e0c347aad32d2a9ebf6b2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Les Ecrins
+    - Le Mont Blanc
+    - Le Mont Everest
+    correctAns: Le Mont Everest
+    alreadyLearned: 0
+  - quesitonInfo: "Quel pays parmi ceux-ci ne partage PAS de fronti\xE8re avec la
+      France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8fa9dc286180fc5489efe44000eeeee7, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Suisse
+    - L'Andorre
+    - Le Portugal
+    correctAns: Le Portugal
+    alreadyLearned: 0
+  - quesitonInfo: "Combien de r\xE9gions sont pr\xE9sentes en France m\xE9tropolitaine
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 13
+    - 18
+    - 22
+    correctAns: 13
+    alreadyLearned: 0
+  - quesitonInfo: "Laquelle n'est pas une r\xE9gion de la France m\xE9tropolitaine
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Hauts-de-France
+    - Hauts-de-Ivre
+    - Occitanie
+    correctAns: Hauts-de-Ivre
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi les r\xE9gions suivantes, laquelle ne fait PAS partie de
+      la France m\xE9tropolitaine ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Bretagne
+    - Occitanie
+    - Saint-Hubert
+    correctAns: Saint-Hubert
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi les r\xE9gions suivantes, laquelle ne fait PAS partie de
+      la France m\xE9tropolitaine ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Nouvelle-Aquitaine
+    - Tournai
+    - "\xCEle-de-France"
+    correctAns: Tournai
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi les \xE9l\xE9ments suivants, lequel n'est PAS un d\xE9partement
+      fran\xE7ais :"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "H\xE9rault"
+    - Calvados
+    - Luxembourg
+    correctAns: Luxembourg
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi les \xE9l\xE9ments suivants, lequel n'est PAS un d\xE9partement
+      fran\xE7ais :"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Aint
+    - "Rh\xF4ne"
+    - Nord
+    correctAns: Aint
+    alreadyLearned: 0
+  - quesitonInfo: "Est-ce que la France est \xE9galement connue sous le nom de l'Hexagone
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c0e3c1ed151780344a9f00abf1557764, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Oui, en r\xE9f\xE9rence \xE0 sa forme g\xE9ographique hexagonale."
+    - "Non, la France n'est pas une forme g\xE9ometrique."
+    - Je ne sais pas
+    correctAns: "Oui, en r\xE9f\xE9rence \xE0 sa forme g\xE9ographique hexagonale."
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quelle r\xE9gion se trouve le Mont-Saint-Michel ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 3e647c6a2c040b84697ea59255a03d41, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Bretagne
+    - Normandie
+    - Hauts-de-France
+    correctAns: Normandie
+    alreadyLearned: 0
+  - quesitonInfo: "Est-ce qu'il y a des volcans actifs en France m\xE9tropolitaine
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 7e2e88cdbc5c4b64dafa2557885b112a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Oui
+    - "Non, mais deux des d\xE9partements et r\xE9gions d'outre-mer se r\xE9veillent
+      fr\xE9quemment."
+    - 'Je ne sais pas '
+    correctAns: "Non, mais deux des d\xE9partements et r\xE9gions d'outre-mer se
+      r\xE9veillent fr\xE9quemment."
+    alreadyLearned: 0
+  - quesitonInfo: "O\xF9 se situe la C\xF4te d'Azur ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 754e944346c30bf419509143f5e89079, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Au nord-est de la France
+    - Au centre de la France
+    - Au sud-est de la France
+    correctAns: Au sud-est de la France
+    alreadyLearned: 0
+  - quesitonInfo: Quel est le fleuve le plus long de France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: a188e70f5415b2e42ae4b1ca7d676369, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - La Loire
+    - La Seine
+    - Le Rhin
+    correctAns: La Loire
+    alreadyLearned: 0
+  - quesitonInfo: "Combien y a-t-il de r\xE9gions en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 13
+    - 18
+    - 22
+    correctAns: 18
+    alreadyLearned: 0
+  - quesitonInfo: "Citez les 5 r\xE9gions d'outre-mer."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8b16fbac22802084db132392651fae22, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La Guyane, la R\xE9union, la Guadeloupe, la Martinique et la Mayotte"
+    - La Guyane, la Corse, la Guadeloupe, la Martinique et le Pays de la Loire
+    - "La Bretagne, la R\xE9union, l'Occitanie, la Martinique et la Mayotte"
+    correctAns: "La Guyane, la R\xE9union, la Guadeloupe, la Martinique et la Mayotte"
+    alreadyLearned: 0
+  - quesitonInfo: "Combien de pays ont une fronti\xE8re terrestre avec la France
+      m\xE9tropolitaine ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 6
+    - 8
+    - 10
+    correctAns: 8
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces \xEEles, laquelle est fran\xE7aise ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 8b16fbac22802084db132392651fae22, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Bora-Bora
+    - "La Cr\xE8te"
+    - Zante
+    correctAns: Bora-Bora
+    alreadyLearned: 0
+  - quesitonInfo: "De quelle ville fran\xE7aise part le tunnel sous la Manche qui
+      relie la France et l'Angleterre ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: c7be67874374c334185577e7bbed38a3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Dunkerque
+    - Calais
+    - Lille
+    correctAns: Calais
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est la ville de cette liste qui se situe le plus au Nord
+      de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Dunkerque
+    - Marseilles
+    - Vichy
+    correctAns: Dunkerque
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est la ville de cette liste qui se situe le plus au Sud
+      de la France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Montpellier
+    - Dijon
+    - Lyon
+    correctAns: Montpellier
+    alreadyLearned: 0
+  - quesitonInfo: "Combien y a-t-il de mers et d'oc\xE9ans qui bordent la France
+      m\xE9tropolitaine ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 0c3b70b28c9f5f3488363107b9631924, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "2 mers (M\xE9diterran\xE9e et la Manche) et l\u2019oc\xE9an Atlantique"
+    - "3 mers (M\xE9diterran\xE9e, la Manche et la Mer du Nord) et l\u2019oc\xE9an
+      Atlantique"
+    - "4 mers (M\xE9diterran\xE9e, la Manche, la Mer du Nord et la mer Adriatique)
+      et l\u2019oc\xE9an Atlantique"
+    correctAns: 3
+    alreadyLearned: 0
+  - quesitonInfo: Quel est le nombre d'habitants en France en 2021?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 66,9 millions
+    - 12 millions
+    - 79,1 millions
+    correctAns: 66,9 millions
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est la ville la plus ancienne de France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Paris
+    - Lyon
+    - "B\xE9ziers"
+    correctAns: "B\xE9ziers"
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le nombre de Parcs naturels r\xE9gionaux en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 26ac429c822dcd449974d18cb2c9c1be, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 39
+    - 56
+    - 64
+    correctAns: 56
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quelle r\xE9gion se trouve la grotte de Lascaux ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 5b86675fd01214a4584217c10e2f1d01, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Nouvelle-Aquitaine
+    - Hauts-de-France
+    - Normandie
+    correctAns: Nouvelle-Aquitaine
+    alreadyLearned: 0
+  - quesitonInfo: "Combien de d\xE9partements compte la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 80
+    - 90
+    - 101
+    correctAns: 101
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le quartier de la ville de Paris o\xF9 se trouve le point
+      le plus \xE9lev\xE9 en altitude ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 3b836019ce406124cac05e10921a98c3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Champs-Elys\xE9es"
+    - Montmartre
+    - "La D\xE9fense"
+    correctAns: Montmartre
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la troisi\xE8me ville de France en termes de population
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Paris
+    - Lyon
+    - Marseille
+    correctAns: Lyon
+    alreadyLearned: 0
+  - quesitonInfo: "La France m\xE9tropolitaine a une superficie de\u2026"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 200 000 km2
+    - 550 000 km2
+    - 1 million de km2
+    correctAns: 550 000 km2
+    alreadyLearned: 0
+  - quesitonInfo: "Avec lequel de ces pays la France n\u2019a pas de fronti\xE8re
+      commune ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Br\xE9sil"
+    - L'Andorre
+    - Les Pays-Bas
+    correctAns: Les Pays-Bas
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi ces territoires fran\xE7ais d'Outre-mer, lequel est situ\xE9
+      dans l'oc\xE9an Indien ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Mayotte
+    - "Saint-Barth\xE9lemy"
+    - "la Polyn\xE9sie fran\xE7aise"
+    correctAns: Mayotte
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la for\xEAt domaniale la plus grande en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f54647a8a9b54e546b641edfc66db0b3, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "For\xEAt d\u2019Orl\xE9ans"
+    - "For\xEAt de Fontainebleau"
+    - "For\xEAt de Tron\xE7ais"
+    correctAns: "For\xEAt d\u2019Orl\xE9ans"
+    alreadyLearned: 0
+  - quesitonInfo: Dans quelle montagne peut-on voir le massif du Canigou ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: a7c4b2cb0a2e0c347aad32d2a9ebf6b2, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Les Pyr\xE9n\xE9es"
+    - Le Mont Ventoux
+    - Les Alpes
+    correctAns: "Les Pyr\xE9n\xE9es"
+    alreadyLearned: 0
+  - quesitonInfo: Combien y a-t-il de communes en France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 18 000
+    - 20 000
+    - 34 000
+    correctAns: 34 000
+    alreadyLearned: 0

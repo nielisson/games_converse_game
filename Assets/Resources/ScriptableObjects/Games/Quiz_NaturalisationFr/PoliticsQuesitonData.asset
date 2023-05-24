@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c645942fcbb0448905ceef1547230f, type: 3}
+  m_Name: PoliticsQuesitonData
+  m_EditorClassIdentifier: 
+  questions:
+  - quesitonInfo: Depuis quand les femmes ont-elles le droit de voter en France ?
+    quesitonType: 0
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1999
+    - 1944
+    - "Depuis la deuxi\xE8me guerre mondiale"
+    correctAns: 1944
+    alreadyLearned: 0
+  - quesitonInfo: "Qui s'occupe des relations entre l'\xC9tat et les institutions
+      religieuses ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 99d8d2e20735b6b4e92f0f2b4cf49e11, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le Pape
+    - "Depuis 1905, il n'y a pas de relation entre l'\xC9tat et la religion."
+    - "Le minist\xE8re des cultes"
+    correctAns: "Le minist\xE8re des cultes"
+    alreadyLearned: 0
+  - quesitonInfo: "Dans quelle r\xE9publique se situe-t-on actuellement ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La 4\xE8me r\xE9publique"
+    - "La 5\xE8me r\xE9publique"
+    - "La 6\xE8me r\xE9publique"
+    correctAns: "La 5\xE8me r\xE9publique"
+    alreadyLearned: 0
+  - quesitonInfo: " Qu\u2019est que le Palais Bourbon ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Il s'agit du si\xE8ge de l'Assembl\xE9e nationale"
+    - " c'est le palais pr\xE9sidentiel et la r\xE9sidence officielle du pr\xE9sident"
+    - c'est le principal palais de justice de Paris et l'un des plus grands d'Europe
+    correctAns: "Il s'agit du si\xE8ge de l'Assembl\xE9e nationale"
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la m\xE9thode de vote utilis\xE9e pour l'\xE9lection
+      pr\xE9sidentielle ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Un vote de confiance
+    - "L'\xE9lection pr\xE9sidentielle se fait par un scrutin \xE0 deux tours et
+      un suffrage universel direct"
+    - "La majorit\xE9 relative de votes "
+    correctAns: "L'\xE9lection pr\xE9sidentielle se fait par un scrutin \xE0 deux
+      tours et un suffrage universel direct"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui occupe actuellement le poste de Pr\xE9sident de la R\xE9publique
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Marine Le Pen
+    - "Fran\xE7ois Hollande"
+    - Emmanuel Macron
+    correctAns: Emmanuel Macron
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la devise de la r\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f5204461559d1f44b990dacd443b413c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Libert\xE9, Ind\xE9pendance, D\xE9mocratie"
+    - "M\xE9tro, boulot, dodo"
+    - "Libert\xE9, \xE9galit\xE9, fraternit\xE9"
+    correctAns: "Libert\xE9, \xE9galit\xE9, fraternit\xE9"
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous d\xE9crire quelques valeurs fondamentales de la R\xE9publique
+      fran\xE7aise ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f5204461559d1f44b990dacd443b413c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La libert\xE9, l'\xE9galit\xE9, la fraternit\xE9, la la\xEFcit\xE9, la solidarit\xE9
+      et le respect de la dignit\xE9 humaine"
+    - "La libert\xE9, l'\xE9galit\xE9, la fraternit\xE9, le travail et la x\xE9nophobie"
+    - "La participation communautaire, \xEAtre gentil et respecter ceux qui sont
+      plus ag\xE9s."
+    correctAns: "La libert\xE9, l'\xE9galit\xE9, la fraternit\xE9, la la\xEFcit\xE9,
+      la solidarit\xE9 et le respect de la dignit\xE9 humaine"
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous me dire quelle est la dur\xE9e du mandat des d\xE9put\xE9s
+      en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 3 ans
+    - 4 ans
+    - 5 ans
+    correctAns: 5 ans
+    alreadyLearned: 0
+  - quesitonInfo: "Pouvez-vous me dire combien de temps dure le mandat pr\xE9sidentiel
+      en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 4 ans
+    - 5 ans
+    - 6 ans
+    correctAns: 5 ans
+    alreadyLearned: 0
+  - quesitonInfo: "Comment se d\xE9roule le vote lors des \xE9lections l\xE9gislatives
+      pour \xE9lire les d\xE9put\xE9s ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Au suffrage universel direct uninominal majoritaire \xE0 deux tours"
+    - "En utilisant un mode de vote \xE0 \xE9lection universelle indirect"
+    - "Les d\xE9put\xE9s sont d\xE9sign\xE9s par le pr\xE9sident"
+    correctAns: "Au suffrage universel direct uninominal majoritaire \xE0 deux tours"
+    alreadyLearned: 0
+  - quesitonInfo: "Citez l'un des aspects de la la\xEFcit\xE9."
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La s\xE9paration entre l'\xE9glise et l'\xE9tat "
+    - L'interdiction des accessoires religieux
+    - L'interdiction de montrer ses convictions religieuses
+    correctAns: "La s\xE9paration entre l'\xE9glise et l'\xE9tat "
+    alreadyLearned: 0
+  - quesitonInfo: "Comment se d\xE9roule le scrutin lors des \xE9lections s\xE9natoriales
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le vote cumulatif
+    - "Ils sont \xE9lus par le pr\xE9sident"
+    - Suffrage universel indirect
+    correctAns: Suffrage universel indirect
+    alreadyLearned: 0
+  - quesitonInfo: "Lequel des \xE9l\xE9ments suivants ne fait pas partie des devoirs
+      des citoyens fran\xE7ais ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: f5204461559d1f44b990dacd443b413c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Payer l\u2019imp\xF4t"
+    - "Faire des dons \xE0 des associations caritatives"
+    - Respecter les lois
+    correctAns: "Faire des dons \xE0 des associations caritatives"
+    alreadyLearned: 0
+  - quesitonInfo: "Pourriez-vous me dire le nom du maire de la ville o\xF9 vous habitez
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Je connais la r\xE9ponse"
+    - "Je ne connais pas la r\xE9ponse"
+    - "Je ne connais pas la r\xE9ponse"
+    correctAns: "Je connais la r\xE9ponse"
+    alreadyLearned: 0
+  - quesitonInfo: 'Parmi les options suivantes, qui n''est pas un ministre ? '
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Bruno Le Maire
+    - "G\xE9rald Darmanin"
+    - Gilles Bouleau
+    correctAns: Gilles Bouleau
+    alreadyLearned: 0
+  - quesitonInfo: "Quel ministre est responsable de la d\xE9cision d'accorder ou
+      non la nationalit\xE9 fran\xE7aise ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le Ministre du Travail, Olivier Dussopt
+    - "Le Garde des Sceaux, \xC9ric Dupond-Moretti "
+    - "Le ministre de l\u2019int\xE9rieur, G\xE9rald Darmanin"
+    correctAns: "Le ministre de l\u2019int\xE9rieur, G\xE9rald Darmanin"
+    alreadyLearned: 0
+  - quesitonInfo: "Si le Pr\xE9sident venait \xE0 d\xE9c\xE9der ou \xE0 \xEAtre incapable
+      d'exercer ses fonctions, qui serait charg\xE9 de diriger la France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Le premier ministre
+    - "Le pr\xE9sident du s\xE9nat"
+    - "Le vice-pr\xE9sident"
+    correctAns: "Le pr\xE9sident du s\xE9nat"
+    alreadyLearned: 0
+  - quesitonInfo: "Lequel des hommes politiques suivants n'a pas \xE9t\xE9 pr\xE9sident
+      pendant la Cinqui\xE8me R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Pompidou
+    - "Giscard d\u2019Estaing"
+    - Marine le Pen
+    correctAns: Marine le Pen
+    alreadyLearned: 0
+  - quesitonInfo: "Qu'est-ce que vous \xE9voque l'ann\xE9e 1905 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La premi\xE8re Guerre Mondiale"
+    - "La loi sur l\u2019IVG de Simone Veil"
+    - " La loi de s\xE9paration de l\u2019Etat et de l\u2019Eglise, la r\xE9publique
+      devient totalement la\xEFque"
+    correctAns: " La loi de s\xE9paration de l\u2019Etat et de l\u2019Eglise, la
+      r\xE9publique devient totalement la\xEFque"
+    alreadyLearned: 0
+  - quesitonInfo: Pourriez-vous me dire qui occupe actuellement le poste de Garde
+      des Sceaux en France ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Le Ministre de la justice, \xC9ric Dupond-Moretti"
+    - "La premi\xE8re ministre, \xC9lisabeth Borne "
+    - "Le Ministre de l'\xC9ducation nationale et de la Jeunesse, Pap Ndiaye"
+    correctAns: "Le Ministre de la justice, \xC9ric Dupond-Moretti"
+    alreadyLearned: 0
+  - quesitonInfo: Pouvez-vous m'expliquer ce qu'est la loi Veil ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La loi Veil concerne le droit des femmes \xE0 l'avortement et \xE0 la contraception."
+    - "La loi qui interdit d'\xEAtre nu chez soi en France"
+    - La loi qui interdit de se suicider devant la tour Eiffel en France
+    correctAns: "La loi Veil concerne le droit des femmes \xE0 l'avortement et \xE0
+      la contraception."
+    alreadyLearned: 0
+  - quesitonInfo: "Par qui le Code civil a-t-il \xE9t\xE9 instaur\xE9 en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Marie Curie
+    - "Ren\xE9 Descartes"
+    - "Napol\xE9on Bonaparte"
+    correctAns: "Napol\xE9on Bonaparte"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est l'homme politique \xE0 l'origine de la cr\xE9ation de
+      l'\xE9cole publique, gratuite et obligatoire ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Fran\xE7ois Ferry"
+    - Antoine Perry
+    - Jules Ferry
+    correctAns: Jules Ferry
+    alreadyLearned: 0
+  - quesitonInfo: "Comment peut-on appeler un pays dirig\xE9 par un roi ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 92ecf6d138aeaf8478f2553f5eedc46c, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Une r\xE9publique"
+    - Une monarchie
+    - "Un r\xE9gime militaire"
+    correctAns: Une monarchie
+    alreadyLearned: 0
+  - quesitonInfo: "Quel mot ne fait PAS partie de la devise de la R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "La\xEFcit\xE9"
+    - "Libert\xE9"
+    - "\xC9galit\xE9"
+    correctAns: "La\xEFcit\xE9"
+    alreadyLearned: 0
+  - quesitonInfo: "O\xF9 si\xE8ge le Parlement europ\xE9en ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: cad4dcdb62ae9c242a88d4afc916e08d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Paris
+    - Luxembourg
+    - Strasbourg
+    correctAns: Strasbourg
+    alreadyLearned: 0
+  - quesitonInfo: "Quelle est la condition \xE0 remplir pour pouvoir voter aux \xE9lections
+      nationales ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "\xCAtre de nationalit\xE9 fran\xE7aise ou citoyen europ\xE9en r\xE9sidant
+      en France"
+    - "Appartenir \xE0 un parti politique"
+    - "Avoir la carte \xE9lectorale \xE0 jour"
+    correctAns: "\xCAtre de nationalit\xE9 fran\xE7aise ou citoyen europ\xE9en r\xE9sidant
+      en France"
+    alreadyLearned: 0
+  - quesitonInfo: "Qu'est-ce que le drapeau fran\xE7ais poss\xE8de ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 4b4903154edcaa843a8cd853b785a33a, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 'Trois couleurs : bleu, blanc et rouge'
+    - "Trois bandes blanches et une grande \xE9toile bleue"
+    - 'Deux couleurs : bleu et rouge'
+    correctAns: 'Trois couleurs : bleu, blanc et rouge'
+    alreadyLearned: 0
+  - quesitonInfo: "Par qui le Gouvernement fran\xE7ais est-il dirig\xE9 ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Par le peuple
+    - Par le Premier ministre
+    - "Par le pr\xE9sident de la R\xE9publique"
+    correctAns: Par le Premier ministre
+    alreadyLearned: 0
+  - quesitonInfo: Qui est responsable de voter les lois ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "L\u2019Assembl\xE9e nationale et le S\xE9nat"
+    - "Le Pr\xE9sident de la R\xE9publique"
+    - "Le peuple fran\xE7ais"
+    correctAns: "L\u2019Assembl\xE9e nationale et le S\xE9nat"
+    alreadyLearned: 0
+  - quesitonInfo: "Le r\xE9gime politique en France est de quelle nature ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Une R\xE9publique \xE0 r\xE9gime semi-pr\xE9sidentiel"
+    - "Une soci\xE9t\xE9 communiste"
+    - Une monarchie
+    correctAns: "Une R\xE9publique \xE0 r\xE9gime semi-pr\xE9sidentiel"
+    alreadyLearned: 0
+  - quesitonInfo: "A partir de quel \xE2ge est-on autoris\xE9 \xE0 voter en France
+      ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 80b35e4ebb6a4a54599371deface1d1d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 16 ans
+    - 18 ans
+    - 19 ans
+    correctAns: 18 ans
+    alreadyLearned: 0
+  - quesitonInfo: Quelle est la profession de Marine Lepen ?
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Avocate
+    - Enseignante
+    - Artiste
+    correctAns: Avocate
+    alreadyLearned: 0
+  - quesitonInfo: "\xC0 quelle date a eu lieu la premi\xE8re \xE9lection pr\xE9sidentielle
+      en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 24a00c19e665ba840954057115f8bf8b, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - 1907
+    - 1848
+    - 1839
+    correctAns: 1848
+    alreadyLearned: 0
+  - quesitonInfo: "Le pr\xE9sident fran\xE7ais ayant eu le plus long mandat :"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Fran\xE7ois Mitterand"
+    - Charles de Gaulle
+    - Jacques Chirac
+    correctAns: "Fran\xE7ois Mitterand"
+    alreadyLearned: 0
+  - quesitonInfo: "Qui est ce pr\xE9sident de la R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: ac4d287f092cc72409263e3916bd0c7d, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - "Ren\xE9 Coty"
+    - "Fran\xE7ois Mitterrand"
+    - Jacques Chirac
+    correctAns: "Ren\xE9 Coty"
+    alreadyLearned: 0
+  - quesitonInfo: "Comment s'appelle le cadre juridique qui conf\xE8re des pouvoirs
+      exceptionnels au pr\xE9sident ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: b998fd9dfe367f645aceffa551642b82, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - L'article 16 de la Constitution
+    - La loi martiale
+    - "L'\xE9tat d'urgence"
+    correctAns: L'article 16 de la Constitution
+    alreadyLearned: 0
+  - quesitonInfo: "Quel est le nombre maximal de mandats cons\xE9cutifs qu'un pr\xE9sident
+      peut effectuer en France ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: e57478973d03bff489db32f2877294e4, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Aucune limite
+    - 1
+    - 2
+    correctAns: 2
+    alreadyLearned: 0
+  - quesitonInfo: "Parmi les pouvoirs suivants, lequel est dispos\xE9 par le pr\xE9sident
+      de la R\xE9publique ?"
+    quesitonType: 1
+    questionImg: {fileID: 21300000, guid: 6389297bcd53d2e4eb3b8bb85e8f9491, type: 3}
+    questionClip: {fileID: 0}
+    quesitonVideo: {fileID: 0}
+    options:
+    - Pouvoir judiciaire
+    - Pouvoir executif
+    - Tous les pouvoirs
+    correctAns: Pouvoir executif
+    alreadyLearned: 0

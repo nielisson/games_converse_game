@@ -1,0 +1,1970 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &423024414409061503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423024414409061499}
+  - component: {fileID: 371644647821549938}
+  - component: {fileID: 423024414409061497}
+  - component: {fileID: 1612181683964160002}
+  - component: {fileID: 6840006122741614081}
+  - component: {fileID: 423024415300591464}
+  m_Layer: 0
+  m_Name: _Manager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &423024414409061499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371644647821549938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd7c4905a60eb14bb7982cb79eb1194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSceneName: Main
+  weekTaskTitle: Week 1 - Reforestation of Amazon forest
+  weekTaskDate: 2022-08-25
+  weekGlobalImpactTarget: 1000
+  activeUsersPeriodInDays: 7
+  minFortuneWheelSpinTime: 5
+  maxFortuneWheelSpinTime: 15
+  ambianceSound: {fileID: 8300000, guid: e95ac286fefe4db45ae1a9097eea2920, type: 3}
+  buyShopSounds:
+  - {fileID: 8300000, guid: 7de78daf6ccd45c45bec5efa7f75757e, type: 3}
+  - {fileID: 8300000, guid: 5506c60e73e384149ac9f95a6efcf384, type: 3}
+  - {fileID: 8300000, guid: bfe692230d213864dbb73ab606235623, type: 3}
+  clickSound: {fileID: 8300000, guid: 42908e147e018b64da508420a531ac45, type: 3}
+  dialogPopupSound: {fileID: 8300000, guid: dc97fb5d6b2f92546b9a9c8bb9c9612d, type: 3}
+  giftShakingSound: {fileID: 8300000, guid: 437764ee5fe502f4691fd836cc530416, type: 3}
+  giftOpenedSound: {fileID: 8300000, guid: 5a03ba5e27b3d9a4caa2ee939de6f622, type: 3}
+  giftClaimSound: {fileID: 8300000, guid: 770b959931fd51b42b0ceba8e66afd27, type: 3}
+  questFinishedSound: {fileID: 8300000, guid: d41440b28d8c7424b85a64a2a99b4438, type: 3}
+  wheelSpinStartSound: {fileID: 8300000, guid: fc22f963ce6877e449f85902cd4962d4, type: 3}
+  wheelSpinFailSound: {fileID: 8300000, guid: cafd7e9af04aca742b65e93db7612325, type: 3}
+  wheelSpinStepSounds:
+  - {fileID: 8300000, guid: 75b9a932c7c4b4e46a7e7b25a0629b24, type: 3}
+  - {fileID: 8300000, guid: c40a58c8b6eafb640a9186dabd24674b, type: 3}
+  - {fileID: 8300000, guid: b3e8e0f08a3ef6844af4c52a81f5a2e8, type: 3}
+  - {fileID: 8300000, guid: afa6abfaa70a9a24aa85d75400e06a37, type: 3}
+  - {fileID: 8300000, guid: 11ec5eef82143cd45a2a6c8eed039a78, type: 3}
+  - {fileID: 8300000, guid: 159145d04a747244081a8fa32f381852, type: 3}
+  - {fileID: 8300000, guid: ad2885ac464f50846a0715c59faf653b, type: 3}
+  - {fileID: 8300000, guid: 1db9c7f96797c73409050954b99c572e, type: 3}
+  - {fileID: 8300000, guid: d7acc4fcaa0671d48b1018b0be3d8449, type: 3}
+  - {fileID: 8300000, guid: 5de423115e6ea894085246b50a831333, type: 3}
+  - {fileID: 8300000, guid: 0cd3a7067efbda24ea5bc096cfe63629, type: 3}
+  - {fileID: 8300000, guid: be89742ab4f5a6d45abde20d9eb0bc4f, type: 3}
+  - {fileID: 8300000, guid: 33dbbf8ef1875e34b8b4978fdae8a1dc, type: 3}
+  - {fileID: 8300000, guid: d346d8b059cb8ab41aecc82e9666efa4, type: 3}
+  - {fileID: 8300000, guid: 0858853aab104dd4190a4de5315074b2, type: 3}
+  - {fileID: 8300000, guid: b96aa6f09aad780499533ad39001f1a6, type: 3}
+  - {fileID: 8300000, guid: 7fc083ef6665bae49b7f60a29828fa57, type: 3}
+  - {fileID: 8300000, guid: 5613110a506de3f41a7715e9900fceda, type: 3}
+  - {fileID: 8300000, guid: d26e9336f6e221c41b685534ed25a984, type: 3}
+  - {fileID: 8300000, guid: 539e83f6b5676c24cba9552a8da0195a, type: 3}
+  websiteLink: https://gamesconverse.space/
+  websiteReportLink: https://gamesconverse.space/
+  googlePlayStoreLink: https://play.google.com/
+  appleAppStoreLink: https://apps.apple.com/app/
+  facebookPageLink: https://www.facebook.com/gamesconverse
+  instagramPageLink: https://www.instagram.com/gamesconverse/
+  twitterPageLink: https://twitter.com/games_converse
+  facebookShareLink: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgamesconverse.space%2F
+  twitterShareLink: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgamesconverse.space%2F&text=Games+Converse+is+a+mobile+games+platform+that+raises+awareness+about+environmental+and+animal+rights+issues%21
+--- !u!114 &423024414409061497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5418056f71499044bf67ff0d441a101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UICanvases:
+  - canvas: {fileID: 0}
+    type: 6
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 5
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 2
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 13
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 1
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 3
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 4
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 0
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 7
+    isFloatingCanvas: 1
+  - canvas: {fileID: 0}
+    type: 10
+    isFloatingCanvas: 1
+  - canvas: {fileID: 0}
+    type: 11
+    isFloatingCanvas: 1
+  - canvas: {fileID: 0}
+    type: 8
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 9
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 12
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 17
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 16
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 15
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 14
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 18
+    isFloatingCanvas: 0
+  - canvas: {fileID: 0}
+    type: 19
+    isFloatingCanvas: 0
+  sideMenu:
+    canvas: {fileID: 0}
+    transform: {fileID: 0}
+    background: {fileID: 0}
+    width: 192
+    position: {x: 0, y: 0, z: 0}
+    startPosition: 0
+    hidePosition: 0
+    isActive: 0
+  dialog:
+    canvas: {fileID: 0}
+    title: {fileID: 0}
+    message: {fileID: 0}
+    oneButtonContainer: {fileID: 0}
+    button11: {fileID: 0}
+    button11Text: {fileID: 0}
+    twoButtonsContainer: {fileID: 0}
+    button21: {fileID: 0}
+    button21Text: {fileID: 0}
+    button22: {fileID: 0}
+    button22Text: {fileID: 0}
+    threeButtonsContainer: {fileID: 0}
+    button31: {fileID: 0}
+    button31Text: {fileID: 0}
+    button32: {fileID: 0}
+    button32Text: {fileID: 0}
+    button33: {fileID: 0}
+    button33Text: {fileID: 0}
+    loaderContainer: {fileID: 0}
+  gameLoading:
+    progressBar: {fileID: 0}
+  login:
+    username: {fileID: 0}
+    password: {fileID: 0}
+  register:
+    username: {fileID: 0}
+    password: {fileID: 0}
+    confirmPassword: {fileID: 0}
+    email: {fileID: 0}
+    nickname: {fileID: 0}
+    country: {fileID: 0}
+    favouriteGameGenre: {fileID: 0}
+  passwordReset1:
+    email: {fileID: 0}
+  passwordReset2:
+    newPassword: {fileID: 0}
+    newPasswordConfirmation: {fileID: 0}
+  accountActivation:
+    codeField1: {fileID: 0}
+    codeField2: {fileID: 0}
+    codeField3: {fileID: 0}
+    codeField4: {fileID: 0}
+    passwordResetEmail: 
+    code: 
+  account:
+    username: {fileID: 0}
+    nickname: {fileID: 0}
+    country: {fileID: 0}
+    favouriteGameGenre: {fileID: 0}
+    oldPassword: {fileID: 0}
+    newPassword: {fileID: 0}
+    confirmPassword: {fileID: 0}
+  userStats:
+    badge:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    nickname:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    impact:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    treesImpact:
+    - {fileID: 0}
+    impactProgress:
+    - {fileID: 0}
+    coins:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    level:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    tickets:
+    - {fileID: 0}
+  main:
+    tab: 0
+    gameSlotsContainer: {fileID: 0}
+    emptyListContainer: {fileID: 0}
+    tabButtons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    genresDropdown: {fileID: 0}
+    gameSlots:
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    - container: {fileID: 0}
+      unlockContainer: {fileID: 0}
+      icon: {fileID: 0}
+      name: {fileID: 0}
+      description: {fileID: 0}
+      tags: {fileID: 0}
+      price: {fileID: 0}
+      hideButton: {fileID: 0}
+      restoreButton: {fileID: 0}
+      favouriteButton: {fileID: 0}
+      unfavouriteButton: {fileID: 0}
+      playUnlockButton: {fileID: 0}
+      playUnlockText: {fileID: 0}
+    gameSlotHeightOffset: 96
+    gameSlotHeight: 300
+  settings:
+    volume: {fileID: 0}
+    volumeText: {fileID: 0}
+    hubSoundsOn: {fileID: 0}
+    hubSoundsOff: {fileID: 0}
+    pushNotificationsOn: {fileID: 0}
+    pushNotificationsOff: {fileID: 0}
+    language: {fileID: 0}
+  avatarCustomization:
+    avatarImages:
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    itemGroups:
+    - buttonImage: {fileID: 0}
+      buttonText: {fileID: 0}
+      itemsTypeIndex: 5
+    - buttonImage: {fileID: 0}
+      buttonText: {fileID: 0}
+      itemsTypeIndex: 4
+    - buttonImage: {fileID: 0}
+      buttonText: {fileID: 0}
+      itemsTypeIndex: 2
+    - buttonImage: {fileID: 0}
+      buttonText: {fileID: 0}
+      itemsTypeIndex: 3
+    - buttonImage: {fileID: 0}
+      buttonText: {fileID: 0}
+      itemsTypeIndex: 0
+    itemsListTitle: {fileID: 0}
+    itemSlots:
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    - transform: {fileID: 0}
+      icon: {fileID: 0}
+      button: {fileID: 0}
+    itemsContentContainer: {fileID: 0}
+    itemsListScrollbar: {fileID: 0}
+    defaultSprites: 010000000f000000170000001d0000002700000030000000
+    itemsGroupButtonNormalSize: 100
+    itemsGroupButtonSelectedSize: 150
+    itemsContainerRowSize: 144
+    itemsContainerTopPadding: 0
+    itemsContainerBottomPadding: 20
+    itemsListColumns: 3
+    currentActiveGroup: 2
+  itemsShop:
+    pagesContainer: {fileID: 0}
+    pages:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    itemSlots:
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    - transform: {fileID: 0}
+      buyOrWearButton: {fileID: 0}
+      wearButton: {fileID: 0}
+      buyButtonPrice: {fileID: 0}
+      buyButtonPriceText: {fileID: 0}
+      icon: {fileID: 0}
+    prevButton: {fileID: 0}
+    nextButton: {fileID: 0}
+    pagesMovementSpeed: 10
+    pageWidth: 666
+    pageSlotsCount: 4
+    itemsTypeIndex: 0
+    currentPageIndex: 0
+  progression:
+    levelBadges:
+    - sprite: {fileID: 21300000, guid: 68cd739c2313ad9458a76273e52346d6, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 0
+    - sprite: {fileID: 21300000, guid: ac73160f83d8f2e41a94c8e8b4c29ee3, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 1
+    - sprite: {fileID: 21300000, guid: 0df2f0a5a3738b6458c102b14c45b50e, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 5
+    - sprite: {fileID: 21300000, guid: 6b369d8462307fb4881ddffe3d6a927b, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 10
+    - sprite: {fileID: 21300000, guid: f1c9f0351ce32f64888fd638f8bec7ea, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 20
+    - sprite: {fileID: 21300000, guid: 6378403275982c2429e794ccc212def2, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 30
+    - sprite: {fileID: 21300000, guid: dec849b8bf6992d46a61c67b115f77a8, type: 3}
+      badge: {fileID: 0}
+      lockedBadge: {fileID: 0}
+      lockImage: {fileID: 0}
+      requiredLevel: 50
+    levelProgressBar: {fileID: 0}
+    levelText: {fileID: 0}
+    nextLevelText: {fileID: 0}
+    levelProgressText: {fileID: 0}
+  impact:
+    irl:
+      container: {fileID: 0}
+      fact1Text: {fileID: 0}
+      fact2Text: {fileID: 0}
+      fact3Text: {fileID: 0}
+    progress:
+      container: {fileID: 0}
+      rewardSlots:
+      - button: {fileID: 0}
+        icon: {fileID: 0}
+        lockedIcon: {fileID: 0}
+        xpText: {fileID: 0}
+        requiredXP: 100
+        progress: 0.236
+      - button: {fileID: 0}
+        icon: {fileID: 0}
+        lockedIcon: {fileID: 0}
+        xpText: {fileID: 0}
+        requiredXP: 500
+        progress: 0.545
+      - button: {fileID: 0}
+        icon: {fileID: 0}
+        lockedIcon: {fileID: 0}
+        xpText: {fileID: 0}
+        requiredXP: 1000
+        progress: 0.844
+      userSlotsFailureContainer: {fileID: 0}
+      userSlotsLoaderContainer: {fileID: 0}
+      userSlotsListContainer: {fileID: 0}
+      userSlotsContainer: {fileID: 0}
+      morePlayersButton: {fileID: 0}
+      lessPlayersButton: {fileID: 0}
+      failureRetryButton: {fileID: 0}
+      playerSlotNicknameColor: {r: 1, g: 0.7529412, b: 0, a: 1}
+      userSlotStartHeight: -285
+      userSlotHeight: -108
+      userSlots:
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      - slotContainer: {fileID: 0}
+        avatarImages:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        nickname: {fileID: 0}
+        impactProgressBar: {fileID: 0}
+      rewardsProgressBar: {fileID: 0}
+      weekTaskTitleText: {fileID: 0}
+    photos:
+      container: {fileID: 0}
+      showRoomContainer: {fileID: 0}
+      showRoomCloseButton: {fileID: 0}
+      showRoomPreviewImage: {fileID: 0}
+      sprites:
+      - {fileID: 21300000, guid: 10cf740ec73b1bc4d94bba7089ff8467, type: 3}
+      - {fileID: 21300000, guid: e63c1d0f868b7d6408d0e41309204c7f, type: 3}
+      slots:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    personalImpactBar: {fileID: 0}
+    globalImpactBar: {fileID: 0}
+    globalTreesBar: {fileID: 0}
+    personalProgressText: {fileID: 0}
+    globalProgressText: {fileID: 0}
+    progressRange: {x: 0.15, y: 0.92}
+  gift:
+    gift: {fileID: 0}
+    giftAnimator: {fileID: 0}
+    acceptButton: {fileID: 0}
+    discardButton: {fileID: 0}
+    giftContainer: {fileID: 0}
+    ticketGiftContainer: {fileID: 0}
+    coinsGiftContainer: {fileID: 0}
+    coinsGiftText: {fileID: 0}
+    itemGiftContainer: {fileID: 0}
+    xpGiftContainer: {fileID: 0}
+    xpGiftText: {fileID: 0}
+    giftType: 0
+    giftAmount: 0
+  quests:
+    slots:
+    - container: {fileID: 0}
+      icon: {fileID: 0}
+      doneCheck: {fileID: 0}
+      title: {fileID: 0}
+      description: {fileID: 0}
+      progressBarContainer: {fileID: 0}
+      progressBar: {fileID: 0}
+      progressText: {fileID: 0}
+      rewardIcon: {fileID: 0}
+      rewardTextContainer: {fileID: 0}
+      rewardText: {fileID: 0}
+      goButton: {fileID: 0}
+      claimButton: {fileID: 0}
+      claimButtonLight: {fileID: 0}
+      claimedButton: {fileID: 0}
+    - container: {fileID: 0}
+      icon: {fileID: 0}
+      doneCheck: {fileID: 0}
+      title: {fileID: 0}
+      description: {fileID: 0}
+      progressBarContainer: {fileID: 0}
+      progressBar: {fileID: 0}
+      progressText: {fileID: 0}
+      rewardIcon: {fileID: 0}
+      rewardTextContainer: {fileID: 0}
+      rewardText: {fileID: 0}
+      goButton: {fileID: 0}
+      claimButton: {fileID: 0}
+      claimButtonLight: {fileID: 0}
+      claimedButton: {fileID: 0}
+    - container: {fileID: 0}
+      icon: {fileID: 0}
+      doneCheck: {fileID: 0}
+      title: {fileID: 0}
+      description: {fileID: 0}
+      progressBarContainer: {fileID: 0}
+      progressBar: {fileID: 0}
+      progressText: {fileID: 0}
+      rewardIcon: {fileID: 0}
+      rewardTextContainer: {fileID: 0}
+      rewardText: {fileID: 0}
+      goButton: {fileID: 0}
+      claimButton: {fileID: 0}
+      claimButtonLight: {fileID: 0}
+      claimedButton: {fileID: 0}
+    - container: {fileID: 0}
+      icon: {fileID: 0}
+      doneCheck: {fileID: 0}
+      title: {fileID: 0}
+      description: {fileID: 0}
+      progressBarContainer: {fileID: 0}
+      progressBar: {fileID: 0}
+      progressText: {fileID: 0}
+      rewardIcon: {fileID: 0}
+      rewardTextContainer: {fileID: 0}
+      rewardText: {fileID: 0}
+      goButton: {fileID: 0}
+      claimButton: {fileID: 0}
+      claimButtonLight: {fileID: 0}
+      claimedButton: {fileID: 0}
+    emptyText: {fileID: 0}
+    generalBackground: {fileID: 0}
+    dailyBackground: {fileID: 0}
+    weeklyBackground: {fileID: 0}
+    monthlyBackground: {fileID: 0}
+    yearlyBackground: {fileID: 0}
+    coinIcon: {fileID: 21300000, guid: a368ea78148d1854eb3ec1225398e2d3, type: 3}
+    xpIcon: {fileID: 21300000, guid: 8d508f68a099b914782fdac0fb426255, type: 3}
+    levelIcon: {fileID: 21300000, guid: 3a10a47d364d5bc4f836339bd681451b, type: 3}
+    ticketIcon: {fileID: 21300000, guid: 6dae919ee29dc2d4cb66b03b456d8c0e, type: 3}
+    shareIcon: {fileID: 21300000, guid: f24f3aca07741944dbcdd206dca4c8a1, type: 3}
+    rateIcon: {fileID: 21300000, guid: bef7cd6f4f3e4234ca226d7771c94fb7, type: 3}
+    claimButtonLightRotationSpeed: 25
+    tab: 0
+  fortuneWheel:
+    wheel: {fileID: 0}
+    wheelSpin0: {fileID: 21300000, guid: 5c383f3f6d86dfa469ca73b439a9e92b, type: 3}
+    wheelSpin1: {fileID: 21300000, guid: 1d8cfb9d5ae5e354a82907ad269d11f8, type: 3}
+    wheelSpin2: {fileID: 21300000, guid: fe3041753328f4047bb10ba83ae983cf, type: 3}
+    wheelSpin5: {fileID: 21300000, guid: 8d78a46d67d588d4b893ca5403ced738, type: 3}
+    wheelSpin10: {fileID: 21300000, guid: 763fbd0ae1ff95b41bf90292f96448ac, type: 3}
+    wheelSpin20: {fileID: 21300000, guid: 399e558189704b74ab39dbbee1e36138, type: 3}
+    wheelSpin40: {fileID: 21300000, guid: cbf69489b3f14da40876caa7c71dd718, type: 3}
+    wheelSpin60: {fileID: 21300000, guid: 72db804e4b4909b4db86bb7d4eb1100f, type: 3}
+    wheelSpin80: {fileID: 21300000, guid: e434359fac985384a9ec0a3d75d4d37c, type: 3}
+    wheelSpin100: {fileID: 21300000, guid: 215ad200cafc6454eb2acbccce9f3d3a, type: 3}
+    pointer: {fileID: 0}
+    pointerSpin0: {fileID: 21300000, guid: 24d38f24145756f4a8b6ba7add8154cb, type: 3}
+    pointerSpin20: {fileID: 21300000, guid: 90f3c4b44dc6212448fe91a287a970a3, type: 3}
+    pointerSpin40: {fileID: 21300000, guid: ca8524091e98672419054be636a3ca1c, type: 3}
+    pointerSpin60: {fileID: 21300000, guid: 804c65a6270a7cd4398ac5887bb16906, type: 3}
+    pointerSpin80: {fileID: 21300000, guid: 68440e31354de3a41bb1743b07fcb483, type: 3}
+    pointerSpin100: {fileID: 21300000, guid: 213a542800b418d4db68210c4705a95e, type: 3}
+    spinButton: {fileID: 0}
+    closeButton: {fileID: 0}
+    ticketsText: {fileID: 0}
+    pointerAngle: 55
+    pointerStep: 5
+    slot1Angle: -45
+    slot2Angle: 45
+    slot3Angle: 135
+    slot4Angle: -135
+    spinSpeed: 25
+    spinDamping: 5
+    spinTime: 0
+    spinTimer: 0
+    spinRotation: 0
+    pointerLastRotation: 0
+    spinSoundCanBePlayed: 0
+--- !u!114 &1612181683964160002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eace83049976664b84777b497175101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dailyEnabled: 1
+  dailyNotification:
+    title: daily bonus
+    message: this is a test for daily notifications
+    smallIcon: app_icon_small
+    largeIcon: app_icon_large
+  threeDaysEnabled: 1
+  threeDaysNotification:
+    title: ' 3-day notification'
+    message: this is a test for 3-day notifications
+    smallIcon: app_icon_small
+    largeIcon: app_icon_large
+  weeklyEnabled: 0
+  weeklyNotification:
+    title: 
+    message: 
+    smallIcon: 
+    largeIcon: 
+--- !u!114 &6840006122741614081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197972808812f1d4a9ace64b17be9ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &423024415300591464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423024414409061503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a9567b875438b4194cdb2c3f6dfb65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: FRZ0JkzfQG6b8z28
+  linkedGameObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

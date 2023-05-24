@@ -1,0 +1,5 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price,Pricing Template ID
+com.games4changes.gamesconverse.10coins,published,managed_by_android,false,en_US;10 Coins;Gives player 10 coins,true,1990000,
+com.games4changes.gamesconverse.25coins,published,managed_by_android,false,en_US;25 Coins;Gives player 25 coins,true,3990000,
+com.games4changes.gamesconverse.50coins,published,managed_by_android,false,en_US;50 Coins;Gives player 50 coins,true,5990000,
+com.games4changes.gamesconverse.100coins,published,managed_by_android,false,en_US;100 Coins;Gives player 100 coins,true,9990000,
