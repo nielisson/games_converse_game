@@ -658,6 +658,9 @@ MonoBehaviour:
   productId: com.games4changes.gamesconverse.500coins
   buttonType: 0
   consumePurchase: 1
+  onTransactionsRestored:
+    m_PersistentCalls:
+      m_Calls: []
   onPurchaseComplete:
     m_PersistentCalls:
       m_Calls:
@@ -917,6 +920,9 @@ MonoBehaviour:
   productId: com.games4changes.gamesconverse.250coins
   buttonType: 0
   consumePurchase: 1
+  onTransactionsRestored:
+    m_PersistentCalls:
+      m_Calls: []
   onPurchaseComplete:
     m_PersistentCalls:
       m_Calls:
@@ -1100,6 +1106,9 @@ MonoBehaviour:
   productId: com.games4changes.gamesconverse.1000coins
   buttonType: 0
   consumePurchase: 1
+  onTransactionsRestored:
+    m_PersistentCalls:
+      m_Calls: []
   onPurchaseComplete:
     m_PersistentCalls:
       m_Calls:
@@ -2527,6 +2536,9 @@ MonoBehaviour:
   productId: com.games4changes.gamesconverse.100coins
   buttonType: 0
   consumePurchase: 1
+  onTransactionsRestored:
+    m_PersistentCalls:
+      m_Calls: []
   onPurchaseComplete:
     m_PersistentCalls:
       m_Calls:

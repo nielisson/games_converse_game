@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f31c4478f05044a800221b44552147, type: 3}
   m_Name: ItemsAndGamesManager
   m_EditorClassIdentifier: 
-  onlineServerURL: https://gamesconverse.space/gameconverse/
+  onlineServerURL: https://games-converse.000webhostapp.com//gameconverse/
   localServerURL: http://localhost/game_converse/gameconverse/
   items:
   - name: Empty Accessory
@@ -21,7 +21,7 @@ MonoBehaviour:
     id: 1
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/icon_empty
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/empty_accessory
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/empty_accessory
     price: 0
   - name: Purple cap
     dependencies: 
@@ -29,7 +29,7 @@ MonoBehaviour:
     id: 2
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap
     price: 100
   - name: Colorful cap
     dependencies: 
@@ -37,7 +37,7 @@ MonoBehaviour:
     id: 3
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_2_colors_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap_2_colors
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_2_colors
     price: 500
   - name: Blue cap
     dependencies: 
@@ -45,7 +45,7 @@ MonoBehaviour:
     id: 4
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_3_blue_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/cap_3_blue
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_3_blue
     price: 100
   - name: Clown nose
     dependencies: 
@@ -60,8 +60,8 @@ MonoBehaviour:
     dependencyAlternative: 0
     id: 6
     typeIndex: 0
-    iconPath: Art/Sprites/14_avatar_customization/Accessories/collar_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/collar
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/collar_icon
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/collar
     price: 200
   - name: Earrings
     dependencies: 
@@ -69,7 +69,7 @@ MonoBehaviour:
     id: 7
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/earrings_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/earrings
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/earrings
     price: 100
   - name: Glass
     dependencies: 
@@ -77,7 +77,7 @@ MonoBehaviour:
     id: 8
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/glass_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/glass
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/glass
     price: 300
   - name: Hair accessory
     dependencies: 
@@ -85,7 +85,7 @@ MonoBehaviour:
     id: 9
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/hair_accessory_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/hair_accessory
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/hair_accessory
     price: 100
   - name: Make up blush
     dependencies: 
@@ -101,7 +101,7 @@ MonoBehaviour:
     id: 11
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_cat_eye_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/makeup_cat_eye
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_cat_eye
     price: 100
   - name: Make up triangles
     dependencies: 
@@ -109,15 +109,15 @@ MonoBehaviour:
     id: 12
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_triangles_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/makeup_triangles
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/makeup_triangles
     price: 100
   - name: Necklace
     dependencies: 
     dependencyAlternative: 0
     id: 13
     typeIndex: 0
-    iconPath: Art/Sprites/14_avatar_customization/Accessories/necklace_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/necklace
+    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/necklace_icon
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/necklace
     price: 100
   - name: Unicorn
     dependencies: 
@@ -125,7 +125,7 @@ MonoBehaviour:
     id: 14
     typeIndex: 0
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/unicorn_icon
-    spritePath: Art/Sprites/14_avatar_customization/Accessories/unicorn
+    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/unicorn
     price: 400
   - name: Blue background
     dependencies: 
@@ -133,7 +133,7 @@ MonoBehaviour:
     id: 15
     typeIndex: 1
     iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_blue
-    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_blue
+    spritePath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_blue
     price: 0
   - name: Colorful background
     dependencies: 
@@ -141,7 +141,7 @@ MonoBehaviour:
     id: 16
     typeIndex: 1
     iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_colorful
-    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_colorful
+    spritePath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_colorful
     price: 0
   - name: Orange background
     dependencies: 
@@ -157,7 +157,7 @@ MonoBehaviour:
     id: 18
     typeIndex: 1
     iconPath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_purple
-    spritePath: Art/Sprites/14_avatar_customization/bg_circle/bg_purple
+    spritePath: Art\/Sprites\/14_avatar_customization\/bg_circle\/bg_purple
     price: 0
   - name: Red background
     dependencies: 
@@ -172,7 +172,7 @@ MonoBehaviour:
     dependencyAlternative: 0
     id: 20
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_1 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_1 1
     spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_1
     price: 0
   - name: Lime eyes
@@ -180,15 +180,15 @@ MonoBehaviour:
     dependencyAlternative: 0
     id: 21
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_2 1
-    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_2
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_2 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_2
     price: 0
   - name: Brown eyes
     dependencies: 
     dependencyAlternative: 0
     id: 22
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_3 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_3 1
     spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_3
     price: 0
   - name: Black eyes
@@ -196,23 +196,23 @@ MonoBehaviour:
     dependencyAlternative: 0
     id: 23
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_4 1
-    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_4
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_4 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_4
     price: 0
   - name: Cyan eyes
     dependencies: 
     dependencyAlternative: 0
     id: 24
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_5 1
-    spritePath: Art/Sprites/14_avatar_customization/Eyes/eye_5
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_5 1
+    spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_5
     price: 0
   - name: Smiley eyes
     dependencies: 
     dependencyAlternative: 0
     id: 25
     typeIndex: 2
-    iconPath: Art/Sprites/14_avatar_customization/Eyes/eye_6 1
+    iconPath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_6 1
     spritePath: Art\/Sprites\/14_avatar_customization\/Eyes\/eye_6
     price: 0
   - name: Brown hair
@@ -245,7 +245,7 @@ MonoBehaviour:
     id: 29
     typeIndex: 3
     iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_4
-    spritePath: Art/Sprites/14_avatar_customization/Hairs/hair_4
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_4
     price: 0
   - name: Kid black hair
     dependencies: 2b0000002c0000002d000000
@@ -285,7 +285,7 @@ MonoBehaviour:
     id: 34
     typeIndex: 3
     iconPath: Art\/Sprites\/14_avatar_customization\/hairs_for_display_bottom_window\/hair_9
-    spritePath: Art/Sprites/14_avatar_customization/Hairs/hair_9
+    spritePath: Art\/Sprites\/14_avatar_customization\/Hairs\/hair_9
     price: 0
   - name: Dark curly hair
     dependencies: 
@@ -325,7 +325,7 @@ MonoBehaviour:
     id: 39
     typeIndex: 4
     iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_dark
-    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_3_dark
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_dark
     price: 0
   - name: Light smiley 2
     dependencies: 2b0000002c0000002d000000
@@ -333,7 +333,7 @@ MonoBehaviour:
     id: 40
     typeIndex: 4
     iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_light
-    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_3_light
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_3_light
     price: 0
   - name: Mouth with lipstick
     dependencies: 
@@ -349,7 +349,7 @@ MonoBehaviour:
     id: 42
     typeIndex: 4
     iconPath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_5_laugh
-    spritePath: Art/Sprites/14_avatar_customization/Mouths/mouth_5_laugh
+    spritePath: Art\/Sprites\/14_avatar_customization\/Mouths\/mouth_5_laugh
     price: 0
   - name: Skin tone 1
     dependencies: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     id: 44
     typeIndex: 5
     iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_2
-    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_2
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_2
     price: 0
   - name: Skin tone 3
     dependencies: 
@@ -373,7 +373,7 @@ MonoBehaviour:
     id: 45
     typeIndex: 5
     iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_3
-    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_3
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_3
     price: 0
   - name: Skin tone 4
     dependencies: 
@@ -397,6 +397,6 @@ MonoBehaviour:
     id: 48
     typeIndex: 5
     iconPath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_6
-    spritePath: Art/Sprites/14_avatar_customization/Bases/skin_tone_6
+    spritePath: Art\/Sprites\/14_avatar_customization\/Bases\/skin_tone_6
     price: 0
   useLocalServer: 0
