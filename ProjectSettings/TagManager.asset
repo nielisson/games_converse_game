@@ -8,6 +8,9 @@ TagManager:
   - Obstacle
   - FxTemporaire
   - Trees
+  - Road
+  - Truck
+  - Garbage
   layers:
   - Default
   - TransparentFX
