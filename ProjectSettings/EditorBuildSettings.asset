@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Games/Game_HataMole.unity
     guid: b2d31885d8ea67945bfc230120196b1d
+  - enabled: 1
+    path: Assets/Scenes/Games/Game_Runner.unity
+    guid: 939e4c02b88e14448a7c3794ee47b700
+  - enabled: 0
+    path: Assets/Scenes/_archive/Game1.unity
+    guid: 81278aa407edce44c92384e7454982e2
   m_configObjects: {}

@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557308246793860556}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 14.1}
   m_LocalScale: {x: 5, y: 2, z: 0.9025}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 2097761889629495131}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1557308246793860545
 MeshFilter:
@@ -94,11 +94,19 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557308246793860556}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.8307111}
+  m_Center: {x: 0, y: 0, z: 0.0044545312}
 --- !u!114 &1557308246793860547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,11 +120,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -10
+  impactVFX: {fileID: 100004, guid: 725cca57766f06f44ae0a0c0f4aad015, type: 3}
 --- !u!1001 &1915725492574140592
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 1557308246793860544}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cd1130279303ba7478190edf95393893, type: 3}
@@ -180,6 +190,9 @@ PrefabInstance:
       value: obstacle_runner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1130279303ba7478190edf95393893, type: 3}
 --- !u!4 &2097761889629495131 stripped
 Transform:

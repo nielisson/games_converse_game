@@ -16,10 +16,16 @@ public class GameManager_Runner : MonoBehaviour
     public TextMeshProUGUI levelText;
     public GameObject playButton;
     public GameObject player;
+    public GameObject levelInfo;
+    public GameObject gameOverScreen;
+    public AudioSource mainMusicAudioS;
+
+    public PlayerController playerController;
+
 
     void Awake ()
     {
-       
+        levelInfo.SetActive(false);
     }
 
 
@@ -48,7 +54,7 @@ public class GameManager_Runner : MonoBehaviour
         while (true)
         {
             // float waitTime2 = Random.Range(4f, 15f);
-            float waitTime2 = Random.Range(1f, 5f);
+            float waitTime2 = Random.Range(5f, 12f);
             yield return new WaitForSeconds(waitTime2);
             Instantiate(powerUp, spawnPointPowerUp.position, Quaternion.identity);
         }
@@ -127,8 +133,10 @@ public class GameManager_Runner : MonoBehaviour
 
     public void GameStart()
     {
+        Time.timeScale = 1;
+
         player.SetActive(true);
-        playButton.SetActive(false);
+        levelInfo.SetActive(true);
 
         StartCoroutine("SpawnObjects");
         StartCoroutine("SpawnPowerUp");
@@ -136,6 +144,26 @@ public class GameManager_Runner : MonoBehaviour
 
 
        
+
+    }
+
+
+    public void GameResume()
+    {
+        score = 0;
+        level = 1;
+        levelText.text = "1";
+
+        mainMusicAudioS.Play();
+
+        gameOverScreen.SetActive(false);
+
+        Time.timeScale = 1;
+
+        player.SetActive(true);
+        levelInfo.SetActive(true);
+
+        playerController.CanJump();
 
     }
 }

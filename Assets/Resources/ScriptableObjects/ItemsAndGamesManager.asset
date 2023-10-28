@@ -47,14 +47,6 @@ MonoBehaviour:
     iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_3_blue_icon
     spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/cap_3_blue
     price: 100
-  - name: Clown nose
-    dependencies: 
-    dependencyAlternative: 0
-    id: 5
-    typeIndex: 0
-    iconPath: Art\/Sprites\/14_avatar_customization\/Accessories\/clown_nose_icon
-    spritePath: Art\/Sprites\/14_avatar_customization\/Accessories\/clown_nose
-    price: 0
   - name: Collar
     dependencies: 
     dependencyAlternative: 0
