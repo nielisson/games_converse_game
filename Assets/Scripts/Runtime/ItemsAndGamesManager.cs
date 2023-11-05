@@ -970,7 +970,7 @@ namespace GamesConverse
 
 		internal static IEnumerator BuyOrWearItem(Item item, bool showLoading, bool chargePlayer)
 		{
-			if (chargePlayer && item.Price > GameController.Instance.UserStatsDetails.coins && !item.IsBought())
+            if (chargePlayer && item.Price > GameController.Instance.UserStatsDetails.coins && !item.IsBought())
 			{
 				UIController.Instance.ShowCanvas(UIController.UICanvasType.BuyCoins);
 

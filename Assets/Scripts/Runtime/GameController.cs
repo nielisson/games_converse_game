@@ -29,6 +29,7 @@ namespace GamesConverse
 
 			public string username;
 			public string password;
+			public bool isGuest;
 
 			#endregion
 
@@ -216,7 +217,8 @@ namespace GamesConverse
 
 			internal IEnumerator StartNewAction(ActionType actionType, Game game, Item item, int coins, int xp, int tickets)
 			{
-				UIController.Instance.ShowDialog("Please Wait...", "Loading...");
+                if (Instance.userSession.isGuest) yield break;
+                UIController.Instance.ShowDialog("Please Wait...", "Loading...");
 
 				WWWForm fields = new WWWForm();
 
@@ -788,6 +790,31 @@ namespace GamesConverse
 
 		#region Coroutines
 
+		internal IEnumerator StartGuestLogin()
+		{
+            if (!UIController.Instance.TryShowInternetConnectionCheckDialog(() => { StartCoroutine(StartGuestLogin()); }))
+                yield break;
+
+            UserSession userSession = new UserSession()
+            {
+                username = "guest",
+                password = "guest"				
+            };
+
+            if (!userSession.Save())
+                Debug.LogWarning("Login succeeded but we could not save session data locally!");
+
+            this.userSession = userSession;
+			this.userSession.isGuest = true;
+
+            yield return StartStatsRetrievingForGuest();
+            yield return StartAvatarRetrievingForGuest();
+
+            UIController.Instance.HideDialog();
+            UIController.Instance.ShowCanvas(UIController.UICanvasType.Main);
+            NotificationsManager.ScheduleNotification("Welcome To Games Converse!", $"Hi {userStats.nickname}!\r\nHope you enjoy the journey :D", "app_icon_small", "app_icon_large", DateTime.Now);
+        }
+
 		internal IEnumerator StartLogin()
 		{
 			if (!UIController.Instance.TryShowInternetConnectionCheckDialog(() => { StartCoroutine(StartLogin()); }))
@@ -847,14 +874,13 @@ namespace GamesConverse
 					break;
 
 				case "403":
-				case "404":
+                case "404":
 					UIController.Instance.ShowDialog("Login Failed", "Please verify your username and password, then try again!", "Okay");
 
 					break;
 
 				case "501":
 					UIController.Instance.ShowDialog("Error", "We're having some trouble sending you the reactivation mail...", "Retry", "Cancel", () => { StartCoroutine(StartLogin()); });
-
 					break;
 
 				default:
@@ -1392,6 +1418,35 @@ namespace GamesConverse
 					break;
 			}
 		}
+
+		internal IEnumerator StartStatsRetrievingForGuest()
+		{
+            userStats = new UserStats(userSession)
+            {
+                username = "guest",
+                nickname = "Guest",
+                country = 0,
+                favouriteGameGenre = 0,
+                coins = 0,
+                xp = 0,
+                level = 0,
+                impact = 0,
+                globalImpact = 0,
+                tickets = 0,
+                boughtItems = { },
+                boughtGames = { }
+            };
+            UIController.Instance.RefreshUserStats();
+            UIController.Instance.RefreshProgression();
+            UIController.Instance.RefreshMain();
+            UIController.Instance.RefreshImpact();
+            UIController.Instance.RefreshQuests();
+            UIController.Instance.RefreshUpdateAccount();
+            UIController.Instance.RefreshInputUpdateAccount();
+            UIController.Instance.itemsShop.RefreshItemsList();
+			yield break;
+        }
+
 		internal IEnumerator StartStatsRetrieving()
 		{
 			if (ItemsAndGamesManager.OfflineMode)
@@ -1419,8 +1474,7 @@ namespace GamesConverse
 				UIController.Instance.ShowDialog("Error", "We've had some errors while connecting to our servers.", "Retry", "Cancel", () => { StartCoroutine(StartLogin()); });
 				Debug.LogError($"Login Failed\r\nCode: {request.responseCode}\r\nError: {request.error}");
 				request.Dispose();
-
-				yield break;
+                yield break;
 			}
 
 			JSONObject json = new JSONObject(request.downloadHandler.text);
@@ -1463,13 +1517,45 @@ namespace GamesConverse
 					break;
 
 				default:
-					UIController.Instance.ShowDialog("Error", "We've had some internal errors!", "Okay");
-					Debug.LogError($"Stats Retrieving Failed: {json["message"].str}\r\n{(json["query"] ? $"Query: {json["query"]}\r\n" : "")}{(json["error"] ? $"Error: {json["error"]}" : "")}");
-
-					break;
+					//UIController.Instance.ShowDialog("Error", "We've had some internal errors!", "Okay");
+					//Debug.LogError($"Stats Retrieving Failed: {json["message"].str}\r\n{(json["query"] ? $"Query: {json["query"]}\r\n" : "")}{(json["error"] ? $"Error: {json["error"]}" : "")}");
+                    userStats = new UserStats(userSession)
+                    {
+                        username = "test",
+                        nickname = "test",
+                        country = 0,
+                        favouriteGameGenre = 0,
+                        coins = 0,
+                        xp = 0,
+                        level = 0,
+                        impact = 0,
+                        globalImpact = 0,
+                        tickets = 0,
+                        boughtItems = { },
+                        boughtGames = { }
+                    };
+                    UIController.Instance.RefreshUserStats();
+                    UIController.Instance.RefreshProgression();
+                    UIController.Instance.RefreshMain();
+                    UIController.Instance.RefreshImpact();
+                    UIController.Instance.RefreshQuests();
+                    UIController.Instance.RefreshUpdateAccount();
+                    UIController.Instance.RefreshInputUpdateAccount();
+                    UIController.Instance.itemsShop.RefreshItemsList();
+                    break;
 			}
 		}
-		internal IEnumerator StartAvatarRetrieving()
+
+		internal IEnumerator StartAvatarRetrievingForGuest()
+		{            
+			Instance.userAvatar = new UserAvatar(userSession);
+            userAvatar.sprites = new int[1] { 0 };
+            UIController.Instance.avatarCustomization.RefreshItemsList();
+			yield break;
+        }
+
+
+        internal IEnumerator StartAvatarRetrieving()
 		{
 			if (ItemsAndGamesManager.OfflineMode)
 			{
@@ -1523,8 +1609,7 @@ namespace GamesConverse
 				default:
 					UIController.Instance.ShowDialog("Error", "We've had some internal errors!", "Okay");
 					Debug.LogError($"Avatar Retrieving Failed: {json["message"].str}\r\n{(json["query"] ? $"Query: {json["query"]}\r\n" : "")}{(json["error"] ? $"Error: {json["error"]}" : "")}");
-
-					break;
+                    break;
 			}
 		}
 

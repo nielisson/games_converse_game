@@ -1058,7 +1058,20 @@ namespace GamesConverse.UI
 		}
 		public void ShowCanvas(UICanvasType canvasType)
 		{
-			UICanvas canvas = UICanvases.Find(c => c.type == canvasType);
+            if (GameController.Instance.UserSessionDetails!= null && GameController.Instance.UserSessionDetails.isGuest)
+            {
+                switch (canvasType)
+                {
+                    case UICanvasType.Profile:
+                    case UICanvasType.FortuneWheel:
+                    case UICanvasType.Impact:
+                    case UICanvasType.BuyCoins:
+                        ShowDialog("Restricted Feature", "This feature is for registered users only, would you like to register now?", "Yes", "No", () => { ShowCanvas(UICanvasType.SignUp); });
+                        return;
+                }
+            }
+
+            UICanvas canvas = UICanvases.Find(c => c.type == canvasType);
 
 			if (!canvas.canvas)
 				return;
@@ -1069,7 +1082,7 @@ namespace GamesConverse.UI
 			canvas.canvas.gameObject.SetActive(true);
 		}
 		public void ShowCanvas(int canvasType)
-		{
+		{			
 			ShowCanvas((UICanvasType)canvasType);
 		}
 		public void HideFloatingCanvas(UICanvasType canvasType)
@@ -1580,6 +1593,13 @@ namespace GamesConverse.UI
 			ShowDialog("Please Wait...", "Connecting...");
 			StartCoroutine(GameController.Instance.StartLogin());
 		}
+
+		public void GuestLogin()
+		{
+            ShowDialog("Please Wait...", "Connecting...");
+            StartCoroutine(GameController.Instance.StartGuestLogin());
+        }
+
 		public void Register()
 		{
 			ShowDialog("Please Wait...", "Almost done...");
@@ -1636,7 +1656,13 @@ namespace GamesConverse.UI
 		}
 		public void Logout()
 		{
+			if(GameController.Instance.UserSessionDetails.isGuest)
+			{				
+                ShowDialog("Are you sure?", "Do you really want to logout?", "Yes", "No", () => { ShowCanvas(UICanvasType.Login); }, () => { HideDialog(); });
+                return;
+			}
 			ShowDialog("Are you sure?", "Do you really want to logout?", "Yes", "No", () => { StartCoroutine(GameController.Instance.StartLogout()); }, () => { HideDialog(); });
+
 		}
 		public void ResendActivationCode()
 		{
@@ -1957,8 +1983,8 @@ namespace GamesConverse.UI
 					break;
 
 				default:
-					ShowImpactLeaderboardFailure();
-					Debug.LogError($"Leaderboard Failure\r\nCode: {json["response"].str}\r\nMessage: {json["message"].str}\r\nQuery: {json["query"].str}\r\nError: {json["error"].str}");
+					//ShowImpactLeaderboardFailure();
+					//Debug.LogError($"Leaderboard Failure\r\nCode: {json["response"].str}\r\nMessage: {json["message"].str}\r\nQuery: {json["query"].str}\r\nError: {json["error"].str}");
 
 					break;
 			}
