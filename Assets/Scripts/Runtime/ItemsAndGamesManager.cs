@@ -607,7 +607,7 @@ namespace GamesConverse
 				return itemTypes;
 			}
 		}
-		public string onlineServerURL = "https://gameconverse-test.000webhostapp.com/";
+		public string onlineServerURL = "https://gamesconverse.online/gameconverse";
 		public string localServerURL = "http://localhost/game_converse/";
 		public bool UseLocalServer
 		{

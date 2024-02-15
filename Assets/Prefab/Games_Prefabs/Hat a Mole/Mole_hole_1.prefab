@@ -6542,6 +6542,10 @@ PrefabInstance:
       value: HeartSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: c818fbf0af9492d4c9c9b6056e81d551, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: c818fbf0af9492d4c9c9b6056e81d551, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -6671,7 +6675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: c818fbf0af9492d4c9c9b6056e81d551, type: 3}
       propertyPath: m_SortingOrder
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 19900002, guid: c818fbf0af9492d4c9c9b6056e81d551, type: 3}
       propertyPath: m_Materials.Array.size

@@ -245,6 +245,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1170.9144
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -2840.2742
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -516.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930967, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1327.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_text
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_horizontalMapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026619930968, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026665344531, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7569124026665344531, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1284
+      objectReference: {fileID: 0}
     - target: {fileID: 7569124026760452127, guid: eaa379c8baff9f647bb7a8968b83c694, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295

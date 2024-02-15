@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f31c4478f05044a800221b44552147, type: 3}
   m_Name: ItemsAndGamesManager
   m_EditorClassIdentifier: 
-  onlineServerURL: https://games-converse.000webhostapp.com//gameconverse/
+  onlineServerURL: 'https://gamesconverse.online/gameconverse/ '
   localServerURL: http://localhost/game_converse/gameconverse/
   items:
   - name: Empty Accessory
